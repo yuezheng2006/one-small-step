@@ -1,0 +1,28 @@
+{
+  "name": "one-small-step",
+  "version": "1.0.0",
+  "description": "技术科普教程项目 - One Small Step",
+  "type": "module",
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
+  },
+  "keywords": [
+    "rspress",
+    "documentation",
+    "tech-blog"
+  ],
+  "author": "@karminski-牙医",
+  "license": "MIT",
+  "dependencies": {
+    "rspress": "^1.0.0"
+  },
+  "devDependencies": {
+    "@rspress/plugin-last-updated": "^1.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
+

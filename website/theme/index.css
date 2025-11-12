@@ -1,0 +1,454 @@
+/* 全局科技感样式 */
+:root {
+  --tech-primary: #00d9ff;
+  --tech-secondary: #7c3aed;
+  --tech-accent: #f59e0b;
+  --tech-dark: #0a0e27;
+  --tech-dark-light: #1a1f3a;
+  --tech-glow: rgba(0, 217, 255, 0.3);
+}
+
+/* 导航栏科技感样式 */
+.nav-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo-icon {
+  font-size: 24px;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px var(--tech-primary));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px var(--tech-primary));
+  }
+}
+
+.nav-tech-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: linear-gradient(135deg, var(--tech-dark-light), var(--tech-dark));
+  border: 1px solid var(--tech-primary);
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--tech-glow);
+}
+
+.tech-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--tech-primary);
+  border-radius: 50%;
+  animation: blink 1.5s ease-in-out infinite;
+  box-shadow: 0 0 8px var(--tech-primary);
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.tech-text {
+  font-size: 12px;
+  color: var(--tech-primary);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* 文档内容渐变装饰 */
+.doc-header-gradient {
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--tech-primary),
+    var(--tech-secondary),
+    var(--tech-primary),
+    transparent
+  );
+  margin-bottom: 2rem;
+  animation: gradient-flow 3s ease infinite;
+  background-size: 200% 100%;
+}
+
+@keyframes gradient-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.doc-footer-gradient {
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--tech-secondary),
+    var(--tech-primary),
+    var(--tech-secondary),
+    transparent
+  );
+  margin-top: 3rem;
+  animation: gradient-flow 3s ease infinite reverse;
+  background-size: 200% 100%;
+}
+
+/* 顶部和底部科技边框 */
+.top-tech-border,
+.bottom-tech-border {
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--tech-primary) 0%,
+    var(--tech-secondary) 50%,
+    var(--tech-primary) 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.top-tech-border::before,
+.bottom-tech-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.5),
+    transparent
+  );
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* 代码块科技感样式 */
+.rspress-theme pre {
+  background: var(--tech-dark) !important;
+  border: 1px solid var(--tech-primary);
+  border-radius: 8px;
+  box-shadow: 0 0 20px var(--tech-glow);
+  position: relative;
+  overflow: hidden;
+}
+
+.rspress-theme pre::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--tech-primary),
+    var(--tech-secondary),
+    var(--tech-primary)
+  );
+}
+
+.rspress-theme code {
+  color: var(--tech-primary) !important;
+}
+
+/* 链接科技感样式 */
+.rspress-theme a {
+  color: var(--tech-primary);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.rspress-theme a:hover {
+  color: var(--tech-accent);
+  text-shadow: 0 0 8px var(--tech-glow);
+}
+
+.rspress-theme a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--tech-primary);
+  transition: width 0.3s ease;
+}
+
+.rspress-theme a:hover::after {
+  width: 100%;
+  box-shadow: 0 0 8px var(--tech-primary);
+}
+
+/* 标题科技感样式 */
+.rspress-theme h1,
+.rspress-theme h2,
+.rspress-theme h3 {
+  background: linear-gradient(
+    135deg,
+    var(--tech-primary),
+    var(--tech-secondary)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.rspress-theme h1::after,
+.rspress-theme h2::after,
+.rspress-theme h3::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--tech-primary),
+    transparent
+  );
+  border-radius: 2px;
+}
+
+/* 侧边栏科技感样式 */
+.rspress-theme .rspress-sidebar {
+  border-right: 1px solid var(--tech-primary);
+  box-shadow: 2px 0 20px var(--tech-glow);
+}
+
+.rspress-theme .rspress-sidebar-item {
+  transition: all 0.3s ease;
+  border-radius: 6px;
+  margin: 2px 0;
+}
+
+.rspress-theme .rspress-sidebar-item:hover {
+  background: rgba(0, 217, 255, 0.1);
+  transform: translateX(4px);
+  box-shadow: -2px 0 8px var(--tech-glow);
+}
+
+.rspress-theme .rspress-sidebar-item-active {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 217, 255, 0.2),
+    transparent
+  );
+  border-left: 3px solid var(--tech-primary);
+  box-shadow: -2px 0 12px var(--tech-glow);
+}
+
+/* 按钮科技感样式 */
+.rspress-theme button {
+  background: linear-gradient(
+    135deg,
+    var(--tech-primary),
+    var(--tech-secondary)
+  );
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--tech-glow);
+}
+
+.rspress-theme button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px var(--tech-glow);
+}
+
+/* 卡片科技感样式 */
+.rspress-theme .rspress-card {
+  background: var(--tech-dark-light);
+  border: 1px solid var(--tech-primary);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.rspress-theme .rspress-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 217, 255, 0.1),
+    transparent
+  );
+  transition: left 0.5s ease;
+}
+
+.rspress-theme .rspress-card:hover::before {
+  left: 100%;
+}
+
+.rspress-theme .rspress-card:hover {
+  border-color: var(--tech-accent);
+  box-shadow: 0 0 30px var(--tech-glow);
+  transform: translateY(-4px);
+}
+
+/* 搜索框科技感样式 */
+.rspress-theme .rspress-search {
+  border: 1px solid var(--tech-primary);
+  background: var(--tech-dark-light);
+  border-radius: 8px;
+  box-shadow: 0 0 15px var(--tech-glow);
+}
+
+.rspress-theme .rspress-search:focus {
+  border-color: var(--tech-accent);
+  box-shadow: 0 0 20px var(--tech-glow);
+}
+
+/* 滚动条科技感样式 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tech-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    var(--tech-primary),
+    var(--tech-secondary)
+  );
+  border-radius: 5px;
+  box-shadow: 0 0 10px var(--tech-glow);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    var(--tech-accent),
+    var(--tech-primary)
+  );
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .nav-tech-indicator {
+    display: none;
+  }
+  
+  .doc-header-gradient,
+  .doc-footer-gradient {
+    height: 2px;
+  }
+}
+
+/* 暗色主题增强 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tech-glow: rgba(0, 217, 255, 0.5);
+  }
+}
+
+/* 页面加载动画 */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rspress-theme main {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* 强调文本科技感 */
+.rspress-theme strong {
+  color: var(--tech-primary);
+  font-weight: 600;
+  text-shadow: 0 0 8px var(--tech-glow);
+}
+
+/* 引用块科技感 */
+.rspress-theme blockquote {
+  border-left: 4px solid var(--tech-primary);
+  background: rgba(0, 217, 255, 0.05);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 4px;
+  box-shadow: 0 0 15px var(--tech-glow);
+  position: relative;
+}
+
+.rspress-theme blockquote::before {
+  content: '⚡';
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  filter: drop-shadow(0 0 8px var(--tech-primary));
+}
+
+/* 表格科技感 */
+.rspress-theme table {
+  border: 1px solid var(--tech-primary);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px var(--tech-glow);
+}
+
+.rspress-theme th {
+  background: linear-gradient(
+    135deg,
+    var(--tech-dark-light),
+    var(--tech-dark)
+  );
+  color: var(--tech-primary);
+  border-bottom: 2px solid var(--tech-primary);
+}
+
+.rspress-theme td {
+  border-bottom: 1px solid rgba(0, 217, 255, 0.2);
+}
+
+.rspress-theme tr:hover {
+  background: rgba(0, 217, 255, 0.1);
+}
+
+

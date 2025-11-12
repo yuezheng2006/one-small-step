@@ -1,0 +1,147 @@
+/* 大白话解释模块样式 - 极简版 */
+.plain-language-explanation {
+  margin: 0 0 2rem 0;
+  border: 1px solid rgba(0, 217, 255, 0.25);
+  border-radius: 6px;
+  background: rgba(0, 217, 255, 0.02);
+  overflow: hidden;
+  transition: border-color 0.2s ease;
+}
+
+.plain-language-explanation:hover {
+  border-color: rgba(0, 217, 255, 0.4);
+}
+
+.explanation-toggle {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  text-align: left;
+}
+
+.explanation-toggle:hover {
+  background: rgba(0, 217, 255, 0.04);
+}
+
+.explanation-icon {
+  font-size: 18px;
+}
+
+.explanation-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--tech-primary, #00b8d4);
+  flex: 1;
+}
+
+.explanation-subtitle {
+  font-size: 0.8rem;
+  color: var(--tech-secondary, #7c3aed);
+  opacity: 0.6;
+}
+
+.explanation-arrow {
+  font-size: 0.7rem;
+  color: var(--tech-primary, #00b8d4);
+  transition: transform 0.2s ease;
+}
+
+.explanation-toggle[aria-expanded="true"] .explanation-arrow {
+  transform: rotate(90deg);
+}
+
+.explanation-content {
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 217, 255, 0.15);
+  background: transparent;
+  animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.explanation-text {
+  line-height: 1.7;
+  color: var(--text-color, #333);
+  font-size: 0.9rem;
+}
+
+.explanation-text p {
+  margin: 0.7rem 0;
+}
+
+.explanation-text p:first-child {
+  margin-top: 0;
+}
+
+.explanation-text p:last-child {
+  margin-bottom: 0;
+}
+
+.explanation-text strong {
+  color: var(--tech-primary, #00b8d4);
+  font-weight: 600;
+}
+
+.explanation-text em {
+  color: var(--tech-secondary, #7c3aed);
+  font-style: normal;
+}
+
+/* 暗色主题适配 */
+@media (prefers-color-scheme: dark) {
+  .plain-language-explanation {
+    border-color: rgba(0, 217, 255, 0.2);
+    background: rgba(0, 217, 255, 0.01);
+  }
+  
+  .plain-language-explanation:hover {
+    border-color: rgba(0, 217, 255, 0.35);
+  }
+  
+  .explanation-toggle:hover {
+    background: rgba(0, 217, 255, 0.03);
+  }
+  
+  .explanation-content {
+    border-top-color: rgba(0, 217, 255, 0.12);
+  }
+  
+  .explanation-text {
+    color: var(--text-color, #e0e0e0);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .explanation-toggle {
+    padding: 0.6rem 0.8rem;
+  }
+  
+  .explanation-subtitle {
+    display: none;
+  }
+  
+  .explanation-content {
+    padding: 0.8rem;
+  }
+  
+  .explanation-text {
+    font-size: 0.85rem;
+  }
+}
+

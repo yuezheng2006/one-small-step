@@ -1,0 +1,21 @@
+# Website build artifacts (RSPress site in website/ directory)
+website/node_modules/
+website/dist/
+website/.rspress/
+website/.cache/
+website/.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+

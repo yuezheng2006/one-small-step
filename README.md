@@ -12,6 +12,23 @@ by @karminski-牙医
 
 **目前更新速度👆, 力求每周不低于3篇**
 
+## 📖 在线阅读
+
+访问 **[One Small Step 文档站](https://one-small-step.vercel.app)** 获得更好的阅读体验！
+
+文档站特性：
+- 🎨 现代化的阅读界面
+- 💡 每篇文章都有"大白话解释"
+- 🔍 全站搜索功能
+- 📱 移动端适配
+- 🌙 主题切换
+
+### 🚀 部署你自己的版本
+
+想部署一个自己的文档站？查看 [Vercel 部署指南](VERCEL_DEPLOY.md)
+
+**重点提示**：部署时必须将 Vercel 的 Root Directory 设置为 `website` 📂
+
 ## 文章列表
 
 ### 人工智能相关
@@ -66,6 +83,20 @@ by @karminski-牙医
 - [什么是 1DPC](20250131-what-is-1DPC/what-is-1DPC.md) - 什么是 1DPC? 为什么内存条要插在远端插槽?
 - [什么是 L1 缓存](20250206-what-is-L1-cache/what-is-L1-cache.md) - 什么是 L1 缓存? 它的工作原理是什么?
   
+## 🚀 本地运行文档站
+
+如果你想在本地运行文档站：
+
+```bash
+cd website
+npm install
+npm run dev
+```
+
+访问 http://localhost:3000
+
+详见 [website/README.md](website/README.md)
+
 ## 贡献
 
 由于个人能力有限, 难免会有错误, 欢迎大家指正, 任何形式的贡献或者讨论都十分欢迎, 可以提交 issue 或者直接 PR.
