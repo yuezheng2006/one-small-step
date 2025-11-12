@@ -41,24 +41,24 @@ plainLanguage: |
 
 首先我们来看注意力公式, 给定输入向量 $Q$（查询）、$K$（键）和 $V$（值），注意力机制的计算公式为：
 
-$$
+```math
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-$$
+```
 
 其中，$d_k$ 是$K$ (键) 向量的维度。
 
 
 多头注意力则将上面的公式拆分, 通过多个独立的注意力头来增强模型的能力。每个头有自己的查询、键和值的线性变换。公式如下：
 
-$$
+```math
 \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, \ldots, \text{head}_h)W^O
-$$
+```
 
 其中每个 $\text{head}_i$ 计算为：
 
-$$
+```math
 \text{head}_i = \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)
-$$
+```
 
 $W_i^Q, W_i^K, W_i^V, W^O$ 是学习到的参数矩阵。
 
@@ -76,11 +76,11 @@ $W_i^Q, W_i^K, W_i^V, W^O$ 是学习到的参数矩阵。
 ### 缺点
 
 - **内存/计算开销**：每个头需要独立的 Q/K/V 投影矩阵，参数数量随头数线性增长：
-  
-  $$
+
+  ```math
   \underbrace{3hd_kd_{model}}_{\text{输入投影}} + \underbrace{hd_kd_{model}}_{\text{输出投影}} = 4hd_kd_{model}
-  $$
-  
+  ```
+
   其中：
   - 输入投影：每个头包含 $W_i^Q, W_i^K, W_i^V \in \mathbb{R}^{d_{model}\times d_k}$ 三个矩阵，共 $3hd_kd_{model}$ 参数
   - 输出投影：合并矩阵 $W^O \in \mathbb{R}^{hd_k\times d_{model}}$，贡献 $hd_kd_{model}$ 参数

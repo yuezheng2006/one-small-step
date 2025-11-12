@@ -60,7 +60,9 @@ plainLanguage: |
 
 召回率的计算公式为：
 
-$$\text{Recall} = \frac{\text{True Positive (TP)}}{\text{True Positive (TP)} + \text{False Negative (FN)}}$$
+```math
+\text{Recall} = \frac{\text{True Positive (TP)}}{\text{True Positive (TP)} + \text{False Negative (FN)}}
+```
 
 召回率的取值范围是 0 到 1（或 0% 到 100%）：
 - **Recall = 1.0**：完美召回，找到了所有正样本, **"这篇文章总计出现了33次孔乙己, 分别在..."**

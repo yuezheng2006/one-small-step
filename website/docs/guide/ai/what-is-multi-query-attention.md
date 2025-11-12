@@ -40,15 +40,15 @@ plainLanguage: |
 
 在标准多头注意力基础上进行关键修改：所有注意力头共享同一组键（K）和值（V）的投影矩阵，仅保留查询（Q）的独立投影。公式如下：
 
-$$
+```math
 \text{MultiQuery}(Q, K, V) = \text{Concat}(\text{head}_1, \ldots, \text{head}_h)W^O
-$$
+```
 
 其中每个 $\text{head}_i$ 计算为：
 
-$$
+```math
 \text{head}_i = \text{Attention}(QW_i^Q, KW^K, VW^V)
-$$
+```
 
 $W_i^Q \in \mathbb{R}^{d_{model}\times d_k}$ 保持独立，而 $W^K, W^V \in \mathbb{R}^{d_{model}\times d_k}$ 被所有头共享。
 

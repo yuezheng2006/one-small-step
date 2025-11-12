@@ -72,10 +72,14 @@ DCA 基于这样一个核心思想：通过重新设计相对位置矩阵的构�
 对于长度为 $L$ 的序列，DCA 将其分割为 $C = \lceil L/w \rceil$ 个块，其中 $w$ 是块大小（通常设为预训练窗口大小）：
 
 **块内注意力**：
-$$A_{intra} = \text{softmax}\left(\frac{Q_i K_i^T}{\sqrt{d_k}}\right) V_i$$
+```math
+A_{intra} = \text{softmax}\left(\frac{Q_i K_i^T}{\sqrt{d_k}}\right) V_i
+```
 
 **块间注意力**：
-$$A_{inter} = \text{softmax}\left(\frac{Q_i K_j^T}{\sqrt{d_k}} \cdot M_{ij}\right) V_j$$
+```math
+A_{inter} = \text{softmax}\left(\frac{Q_i K_j^T}{\sqrt{d_k}} \cdot M_{ij}\right) V_j
+```
 
 其中 $M_{ij}$ 是位置掩码矩阵，确保相对位置不超出预训练范围。
 

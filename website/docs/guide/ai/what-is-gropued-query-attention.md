@@ -39,15 +39,15 @@ Grouped-Query Attention（分组查询注意力）是 Transformer 架构的改�
 
 给定输入向量 $Q$（查询）、$K$（键）和 $V$（值），GQA 将查询头分组处理：
 
-$$
+```math
 \text{GroupedQuery}(Q, K, V) = \text{Concat}(\text{group}_1, \ldots, \text{group}_g)W^O
-$$
+```
 
 每个组内共享键值投影：
 
-$$
+```math
 \text{group}_i = \text{Attention}(QW_i^Q, KW_{\lfloor i/m \rfloor}^K, VW_{\lfloor i/m \rfloor}^V)
-$$
+```
 
 其中：
 - $g$ 为分组数（通常 $g \ll h$）
@@ -64,9 +64,9 @@ $$
 
 - **参数效率**：
   总参数量为：
-  $$
+  ```math
   \underbrace{hd_kd_{model}}_{\text{查询投影}} + \underbrace{2gd_kd_{model}}_{\text{键值投影}} = (h + 2g)d_kd_{model}
-  $$
+  ```
   相比 MHA 减少 $3hd_kd_{model} - (h+2g)d_kd_{model}$ 参数
 
 ### 优点
