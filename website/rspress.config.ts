@@ -1,5 +1,6 @@
 import { defineConfig } from 'rspress/config';
 import { pluginLastUpdated } from '@rspress/plugin-last-updated';
+import katex from 'rspress-plugin-katex';
 import path from 'path';
 
 export default defineConfig({
@@ -264,7 +265,7 @@ export default defineConfig({
     prevPageText: '上一页',
     nextPageText: '下一页',
   },
-  plugins: [pluginLastUpdated()],
+  plugins: [pluginLastUpdated(), katex()],
   markdown: {
     checkDeadLinks: false,
   },

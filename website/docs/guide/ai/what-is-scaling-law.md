@@ -95,13 +95,16 @@ Scaling Law（缩放定律）是指大型语言模型（LLM）的性能与模型
   3. **计算量**（FLOPs，即浮点运算次数 C）
 
 **数学表达：**
-```
-Loss ∝ N^(-α)  （模型大小）
-Loss ∝ D^(-β)  （数据大小）
-Loss ∝ C^(-γ)  （计算量）
 
-其中 α, β, γ 是常数
+```math
+\begin{aligned}
+\text{Loss} &\propto N^{-\alpha} \quad \text{（模型大小）} \\
+\text{Loss} &\propto D^{-\beta} \quad \text{（数据大小）} \\
+\text{Loss} &\propto C^{-\gamma} \quad \text{（计算量）}
+\end{aligned}
 ```
+
+其中 $\alpha, \beta, \gamma$ 是常数
 
 **通俗理解：**
 - 参数量增加 10 倍 → 性能提升约 2-3 倍
@@ -156,13 +159,14 @@ DeepMind 提出优化的数据-参数比例：
 ### 3. 计算量（FLOPs）
 
 训练一个模型需要的总计算量：
+
+```math
+C \text{ (FLOPs)} \approx 6 \times N \times D
 ```
-C (FLOPs) ≈ 6 × N × D
 
 其中：
-N = 参数量
-D = 训练 token 数
-```
+- $N$ = 参数量
+- $D$ = 训练 token 数
 
 **示例：**
 ```

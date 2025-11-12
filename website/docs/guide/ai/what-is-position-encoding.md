@@ -57,15 +57,17 @@ Position Encoding（位置编码）是 Transformer 架构中的关键组件，�
 
 使用不同频率的正弦和余弦函数：
 
-```
-PE(pos, 2i)   = sin(pos / 10000^(2i/d_model))
-PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
+```math
+\begin{aligned}
+\text{PE}(\text{pos}, 2i) &= \sin\left(\frac{\text{pos}}{10000^{2i/d_{\text{model}}}}\right) \\
+\text{PE}(\text{pos}, 2i+1) &= \cos\left(\frac{\text{pos}}{10000^{2i/d_{\text{model}}}}\right)
+\end{aligned}
 ```
 
 其中：
-- `pos`：token 的位置（0, 1, 2...）
-- `i`：维度索引
-- `d_model`：模型维度
+- $\text{pos}$：token 的位置（0, 1, 2...）
+- $i$：维度索引
+- $d_{\text{model}}$：模型维度
 
 **优点**：
 - 可以处理任意长度的序列（包括训练时未见过的长度）

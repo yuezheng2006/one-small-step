@@ -16,7 +16,8 @@
   "author": "@karminski-牙医",
   "license": "MIT",
   "dependencies": {
-    "rspress": "^1.0.0"
+    "rspress": "^1.0.0",
+    "rspress-plugin-katex": "^0.3.0"
   },
   "devDependencies": {
     "@rspress/plugin-last-updated": "^1.0.0",

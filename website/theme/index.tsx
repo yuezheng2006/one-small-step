@@ -1,5 +1,6 @@
 import Theme from 'rspress/theme';
 import { PlainLanguageExplanation } from './PlainLanguageExplanation';
+import { DocumentBadge } from './DocumentBadge';
 import './index.css';
 
 const Layout = () => (
@@ -17,6 +18,7 @@ const Layout = () => (
     }
     beforeDocContent={
       <>
+        <DocumentBadge />
         <PlainLanguageExplanation />
         <div className="doc-header-gradient"></div>
       </>
