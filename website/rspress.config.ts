@@ -1,6 +1,8 @@
 import { defineConfig } from 'rspress/config';
 import { pluginLastUpdated } from '@rspress/plugin-last-updated';
 import katex from 'rspress-plugin-katex';
+import readingTime from 'rspress-plugin-reading-time';
+import mermaid from 'rspress-plugin-mermaid';
 import path from 'path';
 
 export default defineConfig({
@@ -10,6 +12,9 @@ export default defineConfig({
   lang: 'zh',
   icon: '/favicon.svg',
   themeDir: path.join(__dirname, 'theme'),
+  route: {
+    exclude: ['**/fragments/**'],
+  },
   themeConfig: {
     nav: [
       {
@@ -28,182 +33,219 @@ export default defineConfig({
       '/guide/': [
         {
           text: '人工智能相关',
+          collapsible: true,
           items: [
             {
-              text: '什么是 GGUF',
-              link: '/guide/ai/what-is-gguf',
+              text: '基础概念',
+              collapsible: true,
+              items: [
+                {
+                  text: '什么是 Transformer',
+                  link: '/guide/ai/what-is-transformer',
+                },
+                {
+                  text: '什么是 Position Encoding',
+                  link: '/guide/ai/what-is-position-encoding',
+                },
+                {
+                  text: '什么是 Encoder-Decoder 架构',
+                  link: '/guide/ai/what-is-encoder-decoder',
+                },
+                {
+                  text: 'LLM 中的 Token 是如何计算的',
+                  link: '/guide/ai/how-are-tokens-calculated-in-LLMs',
+                },
+                {
+                  text: '什么是向量嵌入',
+                  link: '/guide/ai/what-is-vector-embedding',
+                },
+                {
+                  text: '什么是上下文窗口',
+                  link: '/guide/ai/what-is-context-window',
+                },
+                {
+                  text: '什么是 Temperature 和采样策略',
+                  link: '/guide/ai/what-is-temperature-and-sampling',
+                },
+                {
+                  text: '什么是模态编码',
+                  link: '/guide/ai/what-is-modal-encoding',
+                },
+                {
+                  text: '什么是表示空间',
+                  link: '/guide/ai/what-is-representation-space',
+                },
+                {
+                  text: '什么是 LLM 的困惑度',
+                  link: '/guide/ai/what-is-llm-perplexity',
+                },
+              ],
             },
             {
-              text: '什么是推测性解码',
-              link: '/guide/ai/what-is-speculative-decoding',
+              text: '注意力机制',
+              collapsible: true,
+              items: [
+                {
+                  text: '什么是 Multi-Head Attention',
+                  link: '/guide/ai/what-is-multi-head-attention',
+                },
+                {
+                  text: '什么是 Multi-Query Attention',
+                  link: '/guide/ai/what-is-multi-query-attention',
+                },
+                {
+                  text: '什么是 Grouped Query Attention',
+                  link: '/guide/ai/what-is-gropued-query-attention',
+                },
+                {
+                  text: '什么是 Flash Attention',
+                  link: '/guide/ai/what-is-flash-attention',
+                },
+                {
+                  text: '什么是 Sliding Window Attention',
+                  link: '/guide/ai/what-is-sliding-window-attention',
+                },
+                {
+                  text: '如何避免 KVCache 失效',
+                  link: '/guide/ai/How-to-avoid-KVCache-invalidation',
+                },
+                {
+                  text: 'Qwen3 扩展到 1M 上下文是如何做到的?',
+                  link: '/guide/ai/What-is-Dual-Chunk-Attention',
+                },
+              ],
             },
             {
-              text: '什么是 Pythonic 函数调用',
-              link: '/guide/ai/what-is-pythonic-function-call',
+              text: '模型优化',
+              collapsible: true,
+              items: [
+                {
+                  text: '如何优化 Transformer',
+                  link: '/guide/ai/how-to-optimize-transformer',
+                },
+                {
+                  text: '什么是大语言模型量化',
+                  link: '/guide/ai/what-is-quantization-in-LLM',
+                },
+                {
+                  text: '大模型精度格式一览',
+                  link: '/guide/ai/Parameter-Precision-Formats-for-LLMs',
+                },
+                {
+                  text: '什么是 MoE 模型',
+                  link: '/guide/ai/what-is-MoE',
+                },
+                {
+                  text: '什么是推测性解码',
+                  link: '/guide/ai/what-is-speculative-decoding',
+                },
+                {
+                  text: '什么是 Scaling Law',
+                  link: '/guide/ai/what-is-scaling-law',
+                },
+              ],
             },
             {
-              text: '如何本地运行 GGUF 格式的 LLM 模型',
-              link: '/guide/ai/how-to-run-gguf-LLM-model',
+              text: '训练与微调',
+              collapsible: true,
+              items: [
+                {
+                  text: '什么是预训练/监督微调/RLHF',
+                  link: '/guide/ai/what-is-pretraining-sft-rlhf',
+                },
+                {
+                  text: '什么是 LLM 微调技术',
+                  link: '/guide/ai/what-is-LLM-fine-tuning',
+                },
+                {
+                  text: '什么是 LoRA',
+                  link: '/guide/ai/what-is-LoRA',
+                },
+                {
+                  text: '什么是 LLM 蒸馏技术',
+                  link: '/guide/ai/what-is-LLM-distill',
+                },
+                {
+                  text: '什么是 Few-shot 和 Zero-shot Learning',
+                  link: '/guide/ai/what-is-few-shot-zero-shot',
+                },
+                {
+                  text: '大模型微调最佳实践指南',
+                  link: '/guide/ai/LLM-fine-tuning-summary',
+                },
+                {
+                  text: '什么时候应该微调, 什么时候不应该微调?',
+                  link: '/guide/ai/When-to-Use-Fine-Tuning-and-When-Not-To',
+                },
+              ],
             },
             {
-              text: '什么是 LLM 蒸馏技术',
-              link: '/guide/ai/what-is-LLM-distill',
+              text: '应用技术',
+              collapsible: true,
+              items: [
+                {
+                  text: '什么是 RAG 技术',
+                  link: '/guide/ai/what-is-RAG',
+                },
+                {
+                  text: '什么是向量数据库',
+                  link: '/guide/ai/what-is-vector-database',
+                },
+                {
+                  text: '什么是召回',
+                  link: '/guide/ai/What-is-Recall',
+                },
+                {
+                  text: '什么是 AI Agent',
+                  link: '/guide/ai/what-is-AI-Agent',
+                },
+                {
+                  text: '什么是 Function Calling',
+                  link: '/guide/ai/what-is-function-calling',
+                },
+                {
+                  text: '什么是 Pythonic 函数调用',
+                  link: '/guide/ai/what-is-pythonic-function-call',
+                },
+                {
+                  text: '什么是 Chain of Thought',
+                  link: '/guide/ai/what-is-chain-of-thought',
+                },
+                {
+                  text: '什么是 AI 幻觉',
+                  link: '/guide/ai/what-is-AI-Hallucination',
+                },
+                {
+                  text: '什么是vibe coding?',
+                  link: '/guide/ai/what-is-vibe-coding',
+                },
+              ],
             },
             {
-              text: '什么是 Transformer',
-              link: '/guide/ai/what-is-transformer',
-            },
-            {
-              text: '什么是 Position Encoding',
-              link: '/guide/ai/what-is-position-encoding',
-            },
-            {
-              text: '如何优化 Transformer',
-              link: '/guide/ai/how-to-optimize-transformer',
-            },
-            {
-              text: '什么是大语言模型量化',
-              link: '/guide/ai/what-is-quantization-in-LLM',
-            },
-            {
-              text: '什么是 Flash Attention',
-              link: '/guide/ai/what-is-flash-attention',
-            },
-            {
-              text: '什么是 Multi-Head Attention',
-              link: '/guide/ai/what-is-multi-head-attention',
-            },
-            {
-              text: '什么是 Multi-Query Attention',
-              link: '/guide/ai/what-is-multi-query-attention',
-            },
-            {
-              text: '什么是 Grouped Query Attention',
-              link: '/guide/ai/what-is-gropued-query-attention',
-            },
-            {
-              text: '什么是 LLM 微调技术',
-              link: '/guide/ai/what-is-LLM-fine-tuning',
-            },
-            {
-              text: '什么是预训练/监督微调/RLHF',
-              link: '/guide/ai/what-is-pretraining-sft-rlhf',
-            },
-            {
-              text: '什么是 RAG 技术',
-              link: '/guide/ai/what-is-RAG',
-            },
-            {
-              text: '什么是上下文窗口',
-              link: '/guide/ai/what-is-context-window',
-            },
-            {
-              text: '什么是 Scaling Law',
-              link: '/guide/ai/what-is-scaling-law',
-            },
-            {
-              text: '什么是 Temperature 和采样策略',
-              link: '/guide/ai/what-is-temperature-and-sampling',
-            },
-            {
-              text: '什么是 Few-shot 和 Zero-shot Learning',
-              link: '/guide/ai/what-is-few-shot-zero-shot',
-            },
-            {
-              text: '什么是 Safetensors',
-              link: '/guide/ai/what-is-safetensors',
-            },
-            {
-              text: '什么是 ONNX',
-              link: '/guide/ai/what-is-onnx',
-            },
-            {
-              text: '大模型微调最佳实践指南',
-              link: '/guide/ai/LLM-fine-tuning-summary',
-            },
-            {
-              text: '什么是 MoE 模型',
-              link: '/guide/ai/what-is-MoE',
-            },
-            {
-              text: 'LLM 中的 Token 是如何计算的',
-              link: '/guide/ai/how-are-tokens-calculated-in-LLMs',
-            },
-            {
-              text: '什么是 AI Agent',
-              link: '/guide/ai/what-is-AI-Agent',
-            },
-            {
-              text: '什么是 Function Calling',
-              link: '/guide/ai/what-is-function-calling',
-            },
-            {
-              text: '什么是 Chain of Thought',
-              link: '/guide/ai/what-is-chain-of-thought',
-            },
-            {
-              text: '什么是 Encoder-Decoder 架构',
-              link: '/guide/ai/what-is-encoder-decoder',
-            },
-            {
-              text: '什么是 LoRA',
-              link: '/guide/ai/what-is-LoRA',
-            },
-            {
-              text: '什么是向量嵌入',
-              link: '/guide/ai/what-is-vector-embedding',
-            },
-            {
-              text: '什么是向量数据库',
-              link: '/guide/ai/what-is-vector-database',
-            },
-            {
-              text: '什么是 AI 幻觉',
-              link: '/guide/ai/what-is-AI-Hallucination',
-            },
-            {
-              text: '什么是模态编码',
-              link: '/guide/ai/what-is-modal-encoding',
-            },
-            {
-              text: '什么是表示空间',
-              link: '/guide/ai/what-is-representation-space',
-            },
-            {
-              text: '什么是多模态模型',
-              link: '/guide/ai/what-is-multi-model-llm',
-            },
-            {
-              text: '什么是 LLM 的困惑度',
-              link: '/guide/ai/what-is-llm-perplexity',
-            },
-            {
-              text: '如何避免 KVCache 失效',
-              link: '/guide/ai/How-to-avoid-KVCache-invalidation',
-            },
-            {
-              text: '什么是 Sliding Window Attention',
-              link: '/guide/ai/what-is-sliding-window-attention',
-            },
-            {
-              text: '什么时候应该微调, 什么时候不应该微调?',
-              link: '/guide/ai/When-to-Use-Fine-Tuning-and-When-Not-To',
-            },
-            {
-              text: '什么是vibe coding?',
-              link: '/guide/ai/what-is-vibe-coding',
-            },
-            {
-              text: 'Qwen3 扩展到 1M 上下文是如何做到的?',
-              link: '/guide/ai/What-is-Dual-Chunk-Attention',
-            },
-            {
-              text: '什么是召回',
-              link: '/guide/ai/What-is-Recall',
-            },
-            {
-              text: '大模型精度格式一览',
-              link: '/guide/ai/Parameter-Precision-Formats-for-LLMs',
+              text: '部署与工具',
+              collapsible: true,
+              items: [
+                {
+                  text: '什么是 GGUF',
+                  link: '/guide/ai/what-is-gguf',
+                },
+                {
+                  text: '如何本地运行 GGUF 格式的 LLM 模型',
+                  link: '/guide/ai/how-to-run-gguf-LLM-model',
+                },
+                {
+                  text: '什么是 Safetensors',
+                  link: '/guide/ai/what-is-safetensors',
+                },
+                {
+                  text: '什么是 ONNX',
+                  link: '/guide/ai/what-is-onnx',
+                },
+                {
+                  text: '什么是多模态模型',
+                  link: '/guide/ai/what-is-multi-model-llm',
+                },
+              ],
             },
           ],
         },
@@ -265,7 +307,14 @@ export default defineConfig({
     prevPageText: '上一页',
     nextPageText: '下一页',
   },
-  plugins: [pluginLastUpdated(), katex()],
+  plugins: [
+    pluginLastUpdated(),
+    katex(),
+    readingTime({
+      defaultLocale: 'zh-CN',
+    }),
+    mermaid(),
+  ],
   markdown: {
     checkDeadLinks: false,
   },

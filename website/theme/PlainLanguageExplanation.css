@@ -1,21 +1,23 @@
-/* 大白话解释模块样式 - 极简版 */
+/* 大白话解释模块样式 - 提高对比度 */
 .plain-language-explanation {
   margin: 0 0 2rem 0;
-  border: 1px solid rgba(0, 217, 255, 0.25);
+  border: 2px solid rgba(0, 217, 255, 0.4);
   border-radius: 6px;
-  background: rgba(0, 217, 255, 0.02);
+  background: rgba(0, 217, 255, 0.08);
   overflow: hidden;
   transition: border-color 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 217, 255, 0.1);
 }
 
 .plain-language-explanation:hover {
-  border-color: rgba(0, 217, 255, 0.4);
+  border-color: rgba(0, 217, 255, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 217, 255, 0.15);
 }
 
 .explanation-toggle {
   width: 100%;
   padding: 0.75rem 1rem;
-  background: transparent;
+  background: rgba(0, 217, 255, 0.05);
   border: none;
   display: flex;
   align-items: center;
@@ -26,7 +28,7 @@
 }
 
 .explanation-toggle:hover {
-  background: rgba(0, 217, 255, 0.04);
+  background: rgba(0, 217, 255, 0.12);
 }
 
 .explanation-icon {
@@ -35,20 +37,22 @@
 
 .explanation-title {
   font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--tech-primary, #00b8d4);
+  font-weight: 700;
+  color: #00a8cc;
   flex: 1;
 }
 
 .explanation-subtitle {
   font-size: 0.8rem;
-  color: var(--tech-secondary, #7c3aed);
-  opacity: 0.6;
+  color: #7c3aed;
+  opacity: 0.8;
+  font-weight: 500;
 }
 
 .explanation-arrow {
   font-size: 0.7rem;
-  color: var(--tech-primary, #00b8d4);
+  color: #00a8cc;
+  font-weight: 700;
   transition: transform 0.2s ease;
 }
 
@@ -58,8 +62,8 @@
 
 .explanation-content {
   padding: 1rem;
-  border-top: 1px solid rgba(0, 217, 255, 0.15);
-  background: transparent;
+  border-top: 2px solid rgba(0, 217, 255, 0.25);
+  background: rgba(255, 255, 255, 0.5);
   animation: slideDown 0.2s ease-out;
 }
 
@@ -76,8 +80,9 @@
 
 .explanation-text {
   line-height: 1.7;
-  color: var(--text-color, #333);
+  color: #1a1a1a;
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .explanation-text p {
@@ -93,25 +98,27 @@
 }
 
 .explanation-text strong {
-  color: var(--tech-primary, #00b8d4);
-  font-weight: 600;
+  color: #0088aa;
+  font-weight: 700;
 }
 
 .explanation-text em {
-  color: var(--tech-secondary, #7c3aed);
+  color: #6d28d9;
   font-style: normal;
+  font-weight: 600;
 }
 
 /* 作者信息样式 */
 .explanation-author {
   margin-top: 1rem;
   padding-top: 0.75rem;
-  border-top: 1px dashed rgba(0, 217, 255, 0.15);
+  border-top: 2px dashed rgba(0, 217, 255, 0.3);
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: 0.85rem;
-  color: var(--text-color-secondary, #666);
+  color: #555;
+  font-weight: 500;
 }
 
 .author-icon {
@@ -123,33 +130,78 @@
   opacity: 0.7;
 }
 
-/* 暗色主题适配 */
-@media (prefers-color-scheme: dark) {
-  .plain-language-explanation {
-    border-color: rgba(0, 217, 255, 0.2);
-    background: rgba(0, 217, 255, 0.01);
-  }
-  
-  .plain-language-explanation:hover {
-    border-color: rgba(0, 217, 255, 0.35);
-  }
-  
-  .explanation-toggle:hover {
-    background: rgba(0, 217, 255, 0.03);
-  }
-  
-  .explanation-content {
-    border-top-color: rgba(0, 217, 255, 0.12);
-  }
-  
-  .explanation-text {
-    color: var(--text-color, #e0e0e0);
-  }
+/* 暗色主题适配 - 使用 rspress 的 .dark 类名，提高对比度 */
+.dark .plain-language-explanation,
+.rspress-theme.dark .plain-language-explanation {
+  border-color: rgba(0, 217, 255, 0.4);
+  background: rgba(0, 217, 255, 0.12);
+  box-shadow: 0 2px 8px rgba(0, 217, 255, 0.2);
+}
 
-  .explanation-author {
-    border-top-color: rgba(0, 217, 255, 0.1);
-    color: var(--text-color-secondary, #999);
-  }
+.dark .plain-language-explanation:hover,
+.rspress-theme.dark .plain-language-explanation:hover {
+  border-color: rgba(0, 217, 255, 0.6);
+  box-shadow: 0 4px 12px rgba(0, 217, 255, 0.3);
+}
+
+.dark .explanation-toggle,
+.rspress-theme.dark .explanation-toggle {
+  background: rgba(0, 217, 255, 0.1);
+}
+
+.dark .explanation-toggle:hover,
+.rspress-theme.dark .explanation-toggle:hover {
+  background: rgba(0, 217, 255, 0.18);
+}
+
+.dark .explanation-content,
+.rspress-theme.dark .explanation-content {
+  border-top-color: rgba(0, 217, 255, 0.3);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dark .explanation-text,
+.rspress-theme.dark .explanation-text {
+  color: #e5e7eb;
+  font-weight: 400;
+}
+
+.dark .explanation-title,
+.rspress-theme.dark .explanation-title {
+  color: #00d9ff;
+  font-weight: 700;
+}
+
+.dark .explanation-subtitle,
+.rspress-theme.dark .explanation-subtitle {
+  color: #a78bfa;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.dark .explanation-arrow,
+.rspress-theme.dark .explanation-arrow {
+  color: #00d9ff;
+  font-weight: 700;
+}
+
+.dark .explanation-text strong,
+.rspress-theme.dark .explanation-text strong {
+  color: #00d9ff;
+  font-weight: 700;
+}
+
+.dark .explanation-text em,
+.rspress-theme.dark .explanation-text em {
+  color: #a78bfa;
+  font-weight: 600;
+}
+
+.dark .explanation-author,
+.rspress-theme.dark .explanation-author {
+  border-top-color: rgba(0, 217, 255, 0.25);
+  color: #d1d5db;
+  font-weight: 500;
 }
 
 /* 响应式设计 */

@@ -77,3 +77,4 @@ function formatExplanation(text: string): string {
     .replace(/\n/g, '<br>')
     .replace(/^(.+)$/, '<p>$1</p>');
 }
+

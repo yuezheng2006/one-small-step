@@ -362,6 +362,45 @@ Self-Attention：
 最终输出："I love Beijing"
 ```
 
+### Encoder-Decoder 时序图
+
+以下时序图展示了 Encoder-Decoder 架构在翻译任务中的完整交互过程：
+
+```mermaid
+sequenceDiagram
+    participant Input as 输入序列<br/>"我爱北京"
+    participant Encoder as Encoder<br/>(编码器)
+    participant Context as 上下文向量<br/>[C1, C2, C3]
+    participant Decoder as Decoder<br/>(解码器)
+    participant Output as 输出序列<br/>"I love Beijing"
+
+    Input->>Encoder: 输入词嵌入
+    Note over Encoder: Self-Attention<br/>理解词之间的关系
+    Note over Encoder: 前馈网络处理
+    Encoder->>Context: 生成上下文向量
+    Note over Context: 包含全句理解信息
+    
+    Context->>Decoder: 传递上下文向量
+    Note over Decoder: 输入 <START> token
+    Decoder->>Context: Cross-Attention<br/>查询上下文信息
+    Context-->>Decoder: 返回加权上下文
+    Decoder->>Output: 生成 "I"
+    
+    Note over Decoder: 已生成: "I"
+    Decoder->>Context: Cross-Attention<br/>查询上下文信息
+    Context-->>Decoder: 返回加权上下文
+    Decoder->>Output: 生成 "love"
+    
+    Note over Decoder: 已生成: "I love"
+    Decoder->>Context: Cross-Attention<br/>查询上下文信息
+    Context-->>Decoder: 返回加权上下文
+    Decoder->>Output: 生成 "Beijing"
+    
+    Note over Decoder: 已生成: "I love Beijing"
+    Decoder->>Output: 生成 <EOS>
+    Note over Output: 完成翻译
+```
+
 ### 关键机制：Cross-Attention（交叉注意力）
 
 **Decoder 如何"看到" Encoder 的信息？**

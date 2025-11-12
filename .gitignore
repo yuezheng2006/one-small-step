@@ -20,3 +20,7 @@ Thumbs.db
 *.log
 
 website/doc_build/
+
+# temporary files
+temp/
+.temp/
