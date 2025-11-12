@@ -1,5 +1,6 @@
 import Theme from 'rspress/theme';
 import { PlainLanguageExplanation } from './PlainLanguageExplanation';
+import { DocumentBadge } from './DocumentBadge';
 import './index.css';
 
 const Layout = () => (
@@ -8,7 +9,10 @@ const Layout = () => (
       <span style={{ fontSize: '1.5rem', marginRight: '0.5rem' }}>🚀</span>
     }
     beforeDocContent={
-      <PlainLanguageExplanation />
+      <>
+        <DocumentBadge />
+        <PlainLanguageExplanation />
+      </>
     }
   />
 );
