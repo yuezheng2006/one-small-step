@@ -102,6 +102,27 @@
   font-style: normal;
 }
 
+/* 作者信息样式 */
+.explanation-author {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed rgba(0, 217, 255, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-color-secondary, #666);
+}
+
+.author-icon {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.author-text {
+  opacity: 0.7;
+}
+
 /* 暗色主题适配 */
 @media (prefers-color-scheme: dark) {
   .plain-language-explanation {
@@ -123,6 +144,11 @@
   
   .explanation-text {
     color: var(--text-color, #e0e0e0);
+  }
+
+  .explanation-author {
+    border-top-color: rgba(0, 217, 255, 0.1);
+    color: var(--text-color-secondary, #999);
   }
 }
 

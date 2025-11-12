@@ -34,6 +34,9 @@ export function PlainLanguageExplanation() {
     setIsExpanded(!isExpanded);
   };
 
+  // 获取作者信息
+  const author = (pageData.page as any)?.frontmatter?.author;
+
   return (
     <div className="plain-language-explanation">
       <button
@@ -48,10 +51,16 @@ export function PlainLanguageExplanation() {
       </button>
       {isExpanded && (
         <div className="explanation-content">
-          <div 
+          <div
             className="explanation-text"
             dangerouslySetInnerHTML={{ __html: formatExplanation(plainLanguage) }}
           />
+          {author && (
+            <div className="explanation-author">
+              <span className="author-icon">✍️</span>
+              <span className="author-text">内容来源：{author}</span>
+            </div>
+          )}
         </div>
       )}
     </div>

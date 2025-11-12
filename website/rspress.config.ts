@@ -52,6 +52,10 @@ export default defineConfig({
               link: '/guide/ai/what-is-transformer',
             },
             {
+              text: '什么是 Position Encoding',
+              link: '/guide/ai/what-is-position-encoding',
+            },
+            {
               text: '如何优化 Transformer',
               link: '/guide/ai/how-to-optimize-transformer',
             },
@@ -80,8 +84,28 @@ export default defineConfig({
               link: '/guide/ai/what-is-LLM-fine-tuning',
             },
             {
+              text: '什么是预训练/监督微调/RLHF',
+              link: '/guide/ai/what-is-pretraining-sft-rlhf',
+            },
+            {
               text: '什么是 RAG 技术',
               link: '/guide/ai/what-is-RAG',
+            },
+            {
+              text: '什么是上下文窗口',
+              link: '/guide/ai/what-is-context-window',
+            },
+            {
+              text: '什么是 Scaling Law',
+              link: '/guide/ai/what-is-scaling-law',
+            },
+            {
+              text: '什么是 Temperature 和采样策略',
+              link: '/guide/ai/what-is-temperature-and-sampling',
+            },
+            {
+              text: '什么是 Few-shot 和 Zero-shot Learning',
+              link: '/guide/ai/what-is-few-shot-zero-shot',
             },
             {
               text: '什么是 Safetensors',
