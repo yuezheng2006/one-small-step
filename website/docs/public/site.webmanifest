@@ -1,0 +1,21 @@
+{
+  "name": "One Small Step - AI Learning",
+  "short_name": "One Small Step",
+  "description": "技术科普教程项目，主要聚焦于解释一些有趣的、前沿的技术概念和原理",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#00d9ff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}

@@ -7,6 +7,7 @@ export default defineConfig({
   title: 'One Small Step',
   description: '技术科普教程项目，主要聚焦于解释一些有趣的、前沿的技术概念和原理',
   lang: 'zh',
+  icon: '/favicon.svg',
   themeDir: path.join(__dirname, 'theme'),
   themeConfig: {
     nav: [
