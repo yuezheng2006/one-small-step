@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 18px sans-serif; fill: #333; }
+      .box { fill: #f0f8ff; stroke: #4a90e2; stroke-width: 2; rx: 5; }
+      .arrow { stroke: #888; stroke-width: 2; marker-end: url(#arrowhead); }
+      .label { font: 12px sans-serif; fill: #555; }
+      .category { font: 14px sans-serif; fill: #333; font-weight: bold; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#fafafa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="30" text-anchor="middle" class="title">视频领域技术文档关系图</text>
+  
+  <!-- 基础概念区域 -->
+  <rect x="50" y="80" width="180" height="120" class="box"/>
+  <text x="140" y="105" text-anchor="middle" class="category">📚 基础</text>
+  <text x="140" y="130" text-anchor="middle" class="label">Transformer</text>
+  <text x="140" y="150" text-anchor="middle" class="label">Multi-Head</text>
+  <text x="140" y="170" text-anchor="middle" class="label">Attention</text>
+  
+  <!-- 生成模型区域 -->
+  <rect x="280" y="80" width="180" height="240" class="box"/>
+  <text x="370" y="105" text-anchor="middle" class="category">🎬 视频生成</text>
+  <text x="370" y="130" text-anchor="middle" class="label">VAE</text>
+  <text x="370" y="150" text-anchor="middle" class="label">↓</text>
+  <text x="370" y="170" text-anchor="middle" class="label">Diffusion</text>
+  <text x="370" y="190" text-anchor="middle" class="label">↓</text>
+  <text x="370" y="210" text-anchor="middle" class="label">Latent Diffusion</text>
+  <text x="370" y="230" text-anchor="middle" class="label">↓</text>
+  <text x="370" y="250" text-anchor="middle" class="label">DiT (Sora)</text>
+  <text x="370" y="270" text-anchor="middle" class="label">↓</text>
+  <text x="370" y="290" text-anchor="middle" class="label">GAN</text>
+  
+  <!-- 理解模型区域 -->
+  <rect x="510" y="80" width="180" height="180" class="box"/>
+  <text x="600" y="105" text-anchor="middle" class="category">🎯 视频理解</text>
+  <text x="600" y="130" text-anchor="middle" class="label">ViT</text>
+  <text x="600" y="150" text-anchor="middle" class="label">↓</text>
+  <text x="600" y="170" text-anchor="middle" class="label">Temporal</text>
+  <text x="600" y="190" text-anchor="middle" class="label">Modeling</text>
+  <text x="600" y="210" text-anchor="middle" class="label">↓</text>
+  <text x="600" y="230" text-anchor="middle" class="label">3D Convolution</text>
+  
+  <!-- 多模态区域 -->
+  <rect x="280" y="360" width="180" height="100" class="box"/>
+  <text x="370" y="385" text-anchor="middle" class="category">🌈 多模态</text>
+  <text x="370" y="410" text-anchor="middle" class="label">CLIP</text>
+  <text x="370" y="430" text-anchor="middle" class="label">图文对齐</text>
+  
+  <!-- 应用区域 -->
+  <rect x="510" y="300" width="180" height="160" class="box"/>
+  <text x="600" y="325" text-anchor="middle" class="category">🚀 应用</text>
+  <text x="600" y="350" text-anchor="middle" class="label">Stable Diffusion</text>
+  <text x="600" y="370" text-anchor="middle" class="label">(Latent + CLIP)</text>
+  <text x="600" y="390" text-anchor="middle" class="label">Sora</text>
+  <text x="600" y="410" text-anchor="middle" class="label">(DiT + VAE)</text>
+  <text x="600" y="430" text-anchor="middle" class="label">动作识别</text>
+  
+  <!-- 箭头 -->
+  <line x1="230" y1="140" x2="280" y2="140" class="arrow"/>
+  <line x1="460" y1="140" x2="510" y2="140" class="arrow"/>
+  <line x1="230" y1="140" x2="280" y2="200" class="arrow"/>
+  <line x1="230" y1="140" x2="280" y2="410" class="arrow"/>
+  <line x1="460" y1="170" x2="510" y2="330" class="arrow"/>
+  <line x1="600" y1="260" x2="600" y2="300" class="arrow"/>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="540" text-anchor="middle" class="label">推荐学习路径：基础 → 生成/理解 → 多模态 → 应用</text>
+</svg>

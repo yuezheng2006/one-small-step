@@ -13,7 +13,7 @@ export default defineConfig({
   icon: '/favicon.svg',
   themeDir: path.join(__dirname, 'theme'),
   route: {
-    exclude: ['**/fragments/**'],
+    exclude: ['**/fragments/**', '**/guide/video/**'],
   },
   themeConfig: {
     nav: [
@@ -249,6 +249,7 @@ export default defineConfig({
             },
           ],
         },
+        
         {
           text: '数学相关',
           items: [
@@ -319,4 +320,3 @@ export default defineConfig({
     checkDeadLinks: false,
   },
 });
-

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  <text x="400" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#666">
+    diffusion 相关配图
+  </text>
+  <text x="400" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#999">
+    待补充详细示意图
+  </text>
+</svg>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill: #333; }
+      .placeholder { font: 14px sans-serif; fill: #666; }
+      .box { fill: #f0f8ff; stroke: #4a90e2; stroke-width: 2; rx: 5; }
+      .arrow { stroke: #888; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" text-anchor="middle" class="title">DiT 架构示意图</text>
+  
+  <!-- 占位说明 -->
+  <text x="400" y="70" text-anchor="middle" class="placeholder">[占位图 - 待补充]</text>
+  
+  <!-- U-Net 架构 -->
+  <rect x="50" y="120" width="300" height="250" class="box"/>
+  <text x="200" y="150" text-anchor="middle" class="placeholder">传统 U-Net</text>
+  <text x="200" y="180" text-anchor="middle" class="placeholder">下采样-上采样</text>
+  <text x="200" y="210" text-anchor="middle" class="placeholder">卷积层</text>
+  
+  <!-- DiT 架构 -->
+  <rect x="450" y="120" width="300" height="250" class="box"/>
+  <text x="600" y="150" text-anchor="middle" class="placeholder">DiT 架构</text>
+  <text x="600" y="180" text-anchor="middle" class="placeholder">Patch Embedding</text>
+  <text x="600" y="210" text-anchor="middle" class="placeholder">Transformer Blocks</text>
+  <text x="600" y="240" text-anchor="middle" class="placeholder">AdaLN</text>
+  <text x="600" y="270" text-anchor="middle" class="placeholder">Cross-Attention</text>
+  
+  <!-- 对比说明 -->
+  <text x="400" y="400" text-anchor="middle" class="placeholder">对比参数量和计算复杂度</text>
+</svg>
+
+

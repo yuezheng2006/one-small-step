@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill: #333; }
+      .placeholder { font: 14px sans-serif; fill: #666; }
+      .box { fill: #f0f8ff; stroke: #4a90e2; stroke-width: 2; rx: 5; }
+      .arrow { stroke: #888; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" text-anchor="middle" class="title">Latent Diffusion Pipeline</text>
+  
+  <!-- 占位说明 -->
+  <text x="400" y="70" text-anchor="middle" class="placeholder">[占位图 - 待补充]</text>
+  
+  <!-- 流程步骤 -->
+  <rect x="50" y="120" width="120" height="100" class="box"/>
+  <text x="110" y="150" text-anchor="middle" class="placeholder">图像</text>
+  <text x="110" y="180" text-anchor="middle" class="placeholder">512×512×3</text>
+  
+  <rect x="200" y="120" width="120" height="100" class="box"/>
+  <text x="260" y="150" text-anchor="middle" class="placeholder">VAE</text>
+  <text x="260" y="180" text-anchor="middle" class="placeholder">Encoder</text>
+  
+  <rect x="350" y="120" width="120" height="100" class="box"/>
+  <text x="410" y="150" text-anchor="middle" class="placeholder">潜在空间</text>
+  <text x="410" y="180" text-anchor="middle" class="placeholder">64×64×4</text>
+  
+  <rect x="500" y="120" width="120" height="100" class="box"/>
+  <text x="560" y="150" text-anchor="middle" class="placeholder">扩散</text>
+  <text x="560" y="180" text-anchor="middle" class="placeholder">去噪</text>
+  
+  <rect x="650" y="120" width="120" height="100" class="box"/>
+  <text x="710" y="150" text-anchor="middle" class="placeholder">VAE</text>
+  <text x="710" y="180" text-anchor="middle" class="placeholder">Decoder</text>
+  
+  <!-- 文本条件 -->
+  <rect x="350" y="250" width="120" height="80" class="box"/>
+  <text x="410" y="280" text-anchor="middle" class="placeholder">CLIP</text>
+  <text x="410" y="310" text-anchor="middle" class="placeholder">Text Encoder</text>
+  
+  <!-- 箭头 -->
+  <line x1="170" y1="170" x2="200" y2="170" class="arrow"/>
+  <line x1="320" y1="170" x2="350" y2="170" class="arrow"/>
+  <line x1="470" y1="170" x2="500" y2="170" class="arrow"/>
+  <line x1="620" y1="170" x2="650" y2="170" class="arrow"/>
+  <line x1="410" y1="250" x2="410" y2="220" class="arrow"/>
+  
+  <!-- 说明 -->
+  <text x="400" y="380" text-anchor="middle" class="placeholder">展示 Stable Diffusion 完整流程</text>
+</svg>
+
+

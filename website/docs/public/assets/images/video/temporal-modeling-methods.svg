@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill: #333; }
+      .placeholder { font: 14px sans-serif; fill: #666; }
+      .box { fill: #f0f8ff; stroke: #4a90e2; stroke-width: 2; rx: 5; }
+    </style>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" text-anchor="middle" class="title">时序建模方法对比</text>
+  
+  <!-- 占位说明 -->
+  <text x="400" y="70" text-anchor="middle" class="placeholder">[占位图 - 待补充]</text>
+  
+  <!-- 方法1：光流 -->
+  <rect x="50" y="120" width="150" height="120" class="box"/>
+  <text x="125" y="150" text-anchor="middle" class="placeholder">光流</text>
+  <text x="125" y="180" text-anchor="middle" class="placeholder">Optical Flow</text>
+  <text x="125" y="210" text-anchor="middle" class="placeholder">显式运动向量</text>
+  
+  <!-- 方法2：3D卷积 -->
+  <rect x="230" y="120" width="150" height="120" class="box"/>
+  <text x="305" y="150" text-anchor="middle" class="placeholder">3D卷积</text>
+  <text x="305" y="180" text-anchor="middle" class="placeholder">3D Convolution</text>
+  <text x="305" y="210" text-anchor="middle" class="placeholder">时空联合卷积核</text>
+  
+  <!-- 方法3：RNN/LSTM -->
+  <rect x="410" y="120" width="150" height="120" class="box"/>
+  <text x="485" y="150" text-anchor="middle" class="placeholder">RNN/LSTM</text>
+  <text x="485" y="180" text-anchor="middle" class="placeholder">时序循环处理</text>
+  
+  <!-- 方法4：Temporal Attention -->
+  <rect x="590" y="120" width="150" height="120" class="box"/>
+  <text x="665" y="150" text-anchor="middle" class="placeholder">Temporal</text>
+  <text x="665" y="180" text-anchor="middle" class="placeholder">Attention</text>
+  <text x="665" y="210" text-anchor="middle" class="placeholder">帧间注意力</text>
+  
+  <!-- 说明 -->
+  <text x="400" y="280" text-anchor="middle" class="placeholder">对比四种时序建模方法的感受野和复杂度</text>
+</svg>
+
+

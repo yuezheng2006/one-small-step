@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill: #333; }
+      .placeholder { font: 14px sans-serif; fill: #666; }
+      .box { fill: #f0f8ff; stroke: #4a90e2; stroke-width: 2; rx: 5; }
+      .arrow { stroke: #888; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#888" />
+    </marker>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" text-anchor="middle" class="title">Diffusion Model 过程示意图</text>
+  
+  <!-- 占位说明 -->
+  <text x="400" y="70" text-anchor="middle" class="placeholder">[占位图 - 待补充]</text>
+  
+  <!-- 前向扩散过程 -->
+  <rect x="50" y="120" width="300" height="150" class="box"/>
+  <text x="200" y="150" text-anchor="middle" class="placeholder">前向扩散</text>
+  <text x="200" y="180" text-anchor="middle" class="placeholder">清晰图像 → 噪声</text>
+  <text x="200" y="210" text-anchor="middle" class="placeholder">t=0 → t=500 → t=1000</text>
+  
+  <!-- 反向去噪过程 -->
+  <rect x="450" y="120" width="300" height="150" class="box"/>
+  <text x="600" y="150" text-anchor="middle" class="placeholder">反向去噪</text>
+  <text x="600" y="180" text-anchor="middle" class="placeholder">噪声 → 清晰图像</text>
+  <text x="600" y="210" text-anchor="middle" class="placeholder">t=1000 → t=500 → t=0</text>
+  
+  <!-- 箭头 -->
+  <line x1="350" y1="195" x2="450" y2="195" class="arrow"/>
+  
+  <!-- 说明 -->
+  <text x="400" y="320" text-anchor="middle" class="placeholder">展示前向扩散和反向去噪的完整流程</text>
+</svg>
+
+
