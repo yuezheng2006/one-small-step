@@ -132,6 +132,18 @@ export default defineConfig({
               link: '/guide/ai/what-is-AI-Agent',
             },
             {
+              text: '什么是 Function Calling',
+              link: '/guide/ai/what-is-function-calling',
+            },
+            {
+              text: '什么是 Chain of Thought',
+              link: '/guide/ai/what-is-chain-of-thought',
+            },
+            {
+              text: '什么是 Encoder-Decoder 架构',
+              link: '/guide/ai/what-is-encoder-decoder',
+            },
+            {
               text: '什么是 LoRA',
               link: '/guide/ai/what-is-LoRA',
             },
