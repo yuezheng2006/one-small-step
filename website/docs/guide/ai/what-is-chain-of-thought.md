@@ -30,7 +30,9 @@ plainLanguage: |
 
   **核心思想：** 把问题分解成小步骤，逐步推理，而不是"一步到位"。
 
-  ---
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc023647d391e2ead42.mp3
+podcastTitle: 思维链提示：教AI分步思考，解锁深层推理能力
+---
 
   **实际例子：**
 

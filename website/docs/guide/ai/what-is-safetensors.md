@@ -27,6 +27,9 @@ plainLanguage: |
   - 多框架协作必备
 
   说白了，Safetensors 就是"更安全更快的模型文件格式"——就像从 HTTP 升级到 HTTPS，安全性和效率都提升了。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ea566499a205a12c2f1.mp3
+podcastTitle: Hugging Face safetensors：安全提速，终结Pickle张量风险
 ---
 
 

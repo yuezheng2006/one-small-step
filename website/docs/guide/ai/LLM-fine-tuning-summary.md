@@ -36,6 +36,9 @@ plainLanguage: |
   - **别用 QLoRA**（除非显存真的不够）：QLoRA 是妥协方案，不是最佳方案
 
   说白了，微调最佳实践就是"磨刀不误砍柴工"——80%精力在准备，20%精力在执行，别本末倒置。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915858023647d391e2e3921.mp3
+podcastTitle: 大模型微调避坑：80%时间在数据，5%时间在训练
 ---
 
 

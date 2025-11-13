@@ -28,6 +28,9 @@ plainLanguage: |
   - 云平台：Azure、AWS、阿里云都支持
 
   说白了，ONNX 就是 AI 模型的"世界语"——让不同框架之间能互相"听懂"，不用再为框架绑定发愁。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0623647d391e2eb836.mp3
+podcastTitle: ONNX：统一深度学习格式，让模型高效跑起来
 ---
 
 

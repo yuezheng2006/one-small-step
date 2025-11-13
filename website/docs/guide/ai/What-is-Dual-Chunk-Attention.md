@@ -33,6 +33,9 @@ plainLanguage: |
   - 某些需要频繁跨块交互的任务效果稍差
 
   说白了，DCA 就是"分段吃大象"——把长文章切成小块，但保持块与块之间的联系，既能处理超长文本，又不会"失忆"。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915862b66499a205a124218.mp3
+podcastTitle: DCA：无需训练，大模型上下文直冲100K+
 ---
 
 

@@ -1,6 +1,7 @@
 import Theme from 'rspress/theme';
 import { PlainLanguageExplanation } from './PlainLanguageExplanation';
 import { DocumentBadge } from './DocumentBadge';
+import { PodcastPlayer } from './PodcastPlayer';
 import './index.css';
 
 const Layout = () => (
@@ -11,6 +12,7 @@ const Layout = () => (
     beforeDocContent={
       <>
         <DocumentBadge />
+        <PodcastPlayer />
         <PlainLanguageExplanation />
       </>
     }

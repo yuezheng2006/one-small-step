@@ -26,6 +26,9 @@ plainLanguage: |
   - **实现复杂**：代码比 MHA/MQA 稍微复杂一点
 
   说白了，GQA 就是"中庸之道"的 AI 版本——不走极端，在效果和效率之间找个平衡点，是目前最实用的方案。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6623647d391e2eb2a8.mp3
+podcastTitle: GQA：大模型注意力机制的效率与性能平衡术
 ---
 
 

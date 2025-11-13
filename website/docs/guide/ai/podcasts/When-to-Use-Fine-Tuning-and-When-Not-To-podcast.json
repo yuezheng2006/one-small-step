@@ -1,0 +1,10 @@
+{
+  "file_name": "When-to-Use-Fine-Tuning-and-When-Not-To.md",
+  "doc_path": "guide/ai/When-to-Use-Fine-Tuning-and-When-Not-To.md",
+  "episode_id": "691586d6cf351e750b7bb913",
+  "title": "微调教技能，RAG补知识：AI模型别搞反了",
+  "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3",
+  "credits": 19,
+  "completed_at": 1763018519.320234,
+  "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">微调教技能，RAG补知识：AI模型别搞反了</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+}

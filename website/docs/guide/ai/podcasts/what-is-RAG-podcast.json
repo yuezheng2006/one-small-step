@@ -1,0 +1,10 @@
+{
+  "file_name": "what-is-RAG.md",
+  "doc_path": "guide/ai/what-is-RAG.md",
+  "episode_id": "691583e7cf351e750b7ba7ea",
+  "title": "RAG：给AI配个“手机”，让它回答更靠谱",
+  "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3",
+  "credits": 25,
+  "completed_at": 1763017779.281488,
+  "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">RAG：给AI配个“手机”，让它回答更靠谱</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+}

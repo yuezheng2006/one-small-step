@@ -37,6 +37,9 @@ plainLanguage: |
   - **连续批处理**：多个请求一起处理，提高效率
 
   说白了，Transformer 优化就是"各显神通让模型跑得又快又好"——就像 F1 赛车，每个细节都要优化到极致。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915878dcf351e750b7bbc22.mp3
+podcastTitle: AI改装术：Transformer如何让模型又快又省
 ---
 
 

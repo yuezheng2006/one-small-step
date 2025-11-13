@@ -34,6 +34,9 @@ plainLanguage: |
   - 可以用 `--host 0.0.0.0` 让局域网其他设备也能访问
 
   说白了，运行 GGUF 模型就是"下载-编译-运行"三步曲，比想象中简单多了。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69158f1123647d391e2e6463.mp3
+podcastTitle: GGUF模型本地运行：三步搞定，普通电脑也能玩转大模型
 ---
 
 

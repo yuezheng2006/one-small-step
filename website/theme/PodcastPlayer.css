@@ -1,0 +1,32 @@
+/* 极简模式播放器 - 使用默认audio控件 */
+.podcast-player {
+  margin-bottom: 24px;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.podcast-audio {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.podcast-title {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+/* 深色模式适配 */
+html[data-theme='dark'] .podcast-player {
+  background: #1a1a1a;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] .podcast-title {
+  color: #e0e0e0;
+}
+

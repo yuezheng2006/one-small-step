@@ -25,6 +25,9 @@ plainLanguage: |
   - **可能冗余**：有些头可能学到相似的东西，浪费资源
 
   说白了，多头注意力就是"三个臭皮匠，顶个诸葛亮"的 AI 版本——虽然每个头单独看可能不够聪明，但合起来就很强大。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159db623647d391e2eb48e.mp3
+podcastTitle: 多头注意力：Transformer如何从多角度理解信息
 ---
 
 

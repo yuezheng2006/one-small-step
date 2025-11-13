@@ -1,0 +1,10 @@
+{
+  "file_name": "how-are-tokens-calculated-in-LLMs.md",
+  "doc_path": "guide/ai/how-are-tokens-calculated-in-LLMs.md",
+  "episode_id": "6915872ccf351e750b7bba0a",
+  "title": "AI按“文字碎片”收费：Token计费，中文成本高在哪？",
+  "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3",
+  "credits": 25,
+  "completed_at": 1763018616.209879,
+  "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">AI按“文字碎片”收费：Token计费，中文成本高在哪？</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+}

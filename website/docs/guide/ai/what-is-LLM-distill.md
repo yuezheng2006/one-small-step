@@ -31,6 +31,9 @@ plainLanguage: |
   - 依赖大模型的质量（大模型错了，小模型也错）
 
   说白了，蒸馏就是"师傅带徒弟"的 AI 版本——让小模型站在巨人的肩膀上，用更少的资源做差不多的事。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b77cf351e750b7c283d.mp3
+podcastTitle: LLM蒸馏：大模型瘦身秘籍，小模型也能高效运行
 ---
 
 

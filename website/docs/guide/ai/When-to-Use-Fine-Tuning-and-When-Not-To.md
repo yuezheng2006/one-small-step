@@ -32,6 +32,9 @@ plainLanguage: |
   - ❌ 微调：让模型记住 2024 年的新闻（教知识）→ 应该用 RAG
 
   说白了，微调就是"改变 AI 的性格和习惯"，不是"给 AI 填鸭式灌输知识"——记知识的事交给 RAG，微调只管改行为。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3
+podcastTitle: 微调教技能，RAG补知识：AI模型别搞反了
 ---
 
 

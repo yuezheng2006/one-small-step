@@ -60,6 +60,9 @@ plainLanguage: |
   - Gemini 1.5 Pro：1M（约 75 万字，能看完几本书！）
 
   说白了，上下文窗口就是 AI 的"短期记忆容量"——越大越好，但也越贵。就像你买手机，内存越大越好用，但也越贵。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc666499a205a12b538.mp3
+podcastTitle: 大模型上下文窗口：AI“记忆”的长度与力量
 ---
 
 ![context-window-comparison](/assets/images/context-window-comparison.png)

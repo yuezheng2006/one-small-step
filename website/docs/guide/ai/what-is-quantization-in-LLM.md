@@ -29,6 +29,9 @@ plainLanguage: |
   - 但精度会稍微下降（通常不明显）
 
   说白了，量化就是"用空间换精度"——牺牲一点点精度，换来巨大的空间和速度提升。对普通人来说，Q4 或 Q5 量化是最佳选择。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5c66499a205a12c15d.mp3
+podcastTitle: Q4_K_M是什么？深度学习模型量化，省内存降成本
 ---
 
 

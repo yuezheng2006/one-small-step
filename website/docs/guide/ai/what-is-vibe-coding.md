@@ -1,6 +1,6 @@
 ---
 title: 什么是vibe coding?
-description: 什么是vibe coding?
+description: 用"说人话"写代码——告诉 AI 你想要啥，它给你写代码。
 
 date: 20250611
 plainLanguage: |
@@ -43,11 +43,11 @@ plainLanguage: |
   - 生成的代码可能不够优化
 
   说白了，Vibe Coding 就是"把程序员变成产品经理"——你负责想需求、提要求，AI 负责写代码。就像从"自己做饭"到"点外卖"的转变。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4c23647d391e2ebfed.mp3
+podcastTitle: Andrej Karpathy 2025年2月Vibe Coding：AI编程人人可为
 ---
 
-
-什么是vibe coding?
-----------------------------------
 
 ![](/assets/images/x.png) 
 

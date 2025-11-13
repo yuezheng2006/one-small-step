@@ -33,6 +33,9 @@ plainLanguage: |
   - 推理延迟叠加（图片编码 + 文字生成）
 
   说白了，多模态模型就是"五感俱全的 AI"——不再只能"读书"，还能"看图"、"听音"，更接近人类的感知方式。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dbccf351e750b7c374e.mp3
+podcastTitle: 揭秘多模态模型：工作原理与技术优势
 ---
 
 

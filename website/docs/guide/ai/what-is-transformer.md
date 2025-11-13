@@ -22,6 +22,9 @@ plainLanguage: |
   - 而且"记忆力"更好，能记住很远的上下文
 
   说白了，Transformer 就是让 AI "真正理解语言"的开始。现在所有的大模型（GPT、BERT 等）都是基于它改进的。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/691582b723647d391e2e2711.mp3
+podcastTitle: Transformer：AI的“阅读理解”神器，原来是这样“猜词”的
 ---
 
 

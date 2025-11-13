@@ -17,6 +17,9 @@ plainLanguage: |
   3. **一个文件搞定**：不用配环境、不用装依赖，一个文件就能跑
 
   说白了，GGUF 就是让"普通人也能在自家电脑上跑大模型"这件事变得可能。以前你得是技术大牛才能搞定，现在就像双击打开 Word 文档一样简单。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d5f66499a205a12b995.mp3
+podcastTitle: GGUF：大型语言模型部署的提速降本利器
 ---
 
 

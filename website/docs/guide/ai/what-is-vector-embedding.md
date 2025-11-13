@@ -22,6 +22,9 @@ plainLanguage: |
   - **去重**：找出重复或相似的内容
 
   说白了，向量嵌入就是让 AI "理解"人类语言和图片的桥梁——不是真的理解，而是用数学方法"假装理解"，但效果很好。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4666499a205a12c65b.mp3
+podcastTitle: 向量嵌入：机器理解数据的核心，数据库提速增效
 ---
 
 

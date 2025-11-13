@@ -25,6 +25,9 @@ plainLanguage: |
   - **训练难度**：需要更小心地调参数
 
   说白了，MQA 就是"勤俭持家"的 AI 版本——用更少的资源，做差不多的事，适合在手机、边缘设备这些资源紧张的地方跑模型。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dffcf351e750b7c39eb.mp3
+podcastTitle: 解密 Multi-Query Attention：Transformer 内存与速度双提升
 ---
 
 

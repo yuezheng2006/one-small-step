@@ -28,6 +28,9 @@ plainLanguage: |
   - 或者你让它"关电风扇打开空调微波炉定时3分钟"，它只记得最后一个
 
   说白了，召回率就是"AI 的记忆力"——能不能把该记住的都记住，该找到的都找到，不遗漏。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3
+podcastTitle: 一文读懂AI召回率：衡量大模型“找全了没有”的关键
 ---
 
 

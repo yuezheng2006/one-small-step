@@ -1,0 +1,10 @@
+{
+  "file_name": "What-is-Recall.md",
+  "doc_path": "guide/ai/What-is-Recall.md",
+  "episode_id": "6915868123647d391e2e3ec8",
+  "title": "一文读懂AI召回率：衡量大模型“找全了没有”的关键",
+  "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3",
+  "credits": 8,
+  "completed_at": 1763018433.2757702,
+  "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">一文读懂AI召回率：衡量大模型“找全了没有”的关键</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+}

@@ -29,6 +29,9 @@ plainLanguage: |
   - **保持怀疑**：对 AI 说的话保持批判性思维
 
   说白了，AI 幻觉就是"AI 也会吹牛"——而且吹得特别自信。记住：AI 是工具，不是权威，别全信。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b55cf351e750b7c2783.mp3
+podcastTitle: 警惕AI幻觉：生成式AI一本正经“说谎”的深层机制
 ---
 
 

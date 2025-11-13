@@ -56,6 +56,9 @@ plainLanguage: |
   - Claude = 基础模型（预训练）+ SFT + Constitutional AI（类似 RLHF）
 
   说白了，这三步就是：**先让 AI 变博学（预训练）→ 再让 AI 会干活（SFT）→ 最后让 AI 讨人喜欢（RLHF）**。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5023647d391e2eba1b.mp3
+podcastTitle: LLM炼成记：三阶段如何从知识储备变身实用助手
 ---
 
 ![llm-training-pipeline](/assets/images/llm-training-pipeline.png)

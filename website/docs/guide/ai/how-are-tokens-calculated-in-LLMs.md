@@ -31,6 +31,9 @@ plainLanguage: |
   - 这样既不会太长（超模型上下文），也不会太短（浪费空间）
 
   说白了，Token 就是 AI 的"计费单位"——就像你打车按公里算钱，用 AI 按 Token 算钱。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3
+podcastTitle: AI按“文字碎片”收费：Token计费，中文成本高在哪？
 ---
 
 

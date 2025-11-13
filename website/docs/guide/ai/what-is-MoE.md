@@ -24,6 +24,9 @@ plainLanguage: |
   需要更多显存（因为所有专家都要"待命"），而且微调时容易"专家罢工"（某些专家不干活了）。
 
   说白了，MoE 就是"人多力量大，但只让该干活的人干活"的 AI 版本。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bd366499a205a12b000.mp3
+podcastTitle: 混合专家模型（MoE）：AI大模型高效可扩展的秘密
 ---
 
 

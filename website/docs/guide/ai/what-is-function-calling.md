@@ -59,7 +59,9 @@ plainLanguage: |
   5. **AI 生成回复**：
      "找到一班早上 8 点的航班 CA1234，票价 800 元，需要预订吗？"
 
-  ---
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1ccf351e750b7c32d8.mp3
+podcastTitle: 函数调用：AI告别纸上谈兵，真正走向现实行动
+---
 
   **实际例子：**
 

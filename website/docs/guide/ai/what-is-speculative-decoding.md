@@ -20,6 +20,9 @@ plainLanguage: |
   速度能快 2-3 倍，但质量不变。就像你找了个"预判大师"帮你提前想好要说啥，你只需要点头或摇头就行。
 
   说白了，这就是"用聪明的方法偷懒"——不是真的偷懒，而是让 AI 更高效地工作。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ef523647d391e2ebd9a.mp3
+podcastTitle: 推测性解码：让大语言模型推理速度飙升2-3倍
 ---
 
 

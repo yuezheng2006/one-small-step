@@ -26,6 +26,9 @@ plainLanguage: |
   - **向量嵌入**：第二步，把"半成品"变成"成品"（统一格式，可以直接比较）
 
   说白了，模态编码就是"翻译第一步"——把各种语言翻译成"中间语言"，为后续的跨模态处理打基础。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159daf66499a205a12bbd0.mp3
+podcastTitle: 模态编码：让AI看懂听懂世界的幕后英雄
 ---
 
 

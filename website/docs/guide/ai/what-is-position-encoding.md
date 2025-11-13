@@ -28,6 +28,9 @@ plainLanguage: |
   - 有位置编码：猫=1号、吃=2号、鱼=3号 → AI 知道正确顺序
 
   说白了，Position Encoding 就是让 AI "知道词语的排队顺序"，这样它才能理解"我打了他"和"他打了我"的区别。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0d23647d391e2eb84a.mp3
+podcastTitle: Transformer 为什么需要位置编码？解密并行计算的顺序难题
 ---
 
 ![position-encoding](/assets/images/position-encoding.png)

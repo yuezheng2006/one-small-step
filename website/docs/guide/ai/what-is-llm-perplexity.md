@@ -30,6 +30,9 @@ plainLanguage: |
   - 跟人类感受可能不一致（AI 觉得好，人可能觉得不好）
 
   说白了，困惑度就是"AI 的考试成绩单"——虽然不能说明一切，但至少能告诉你模型学得怎么样。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6c23647d391e2eb2f0.mp3
+podcastTitle: 困惑度：语言模型评估的核心指标
 ---
 
 

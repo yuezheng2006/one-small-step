@@ -37,6 +37,9 @@ plainLanguage: |
   - **测试**：Q2_K_M（超大模型，想快速体验）
 
   说白了，精度格式就是"精度vs空间"的权衡——就像买车，豪车（高精度）舒服但贵，经济型车（低精度）便宜但体验稍差，看你的需求和预算。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/691585d523647d391e2e3ad5.mp3
+podcastTitle: 大白话讲大模型精度：选对“分辨率”，AI又省又好
 ---
 
 

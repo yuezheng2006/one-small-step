@@ -30,6 +30,9 @@ plainLanguage: |
   - KVCache 失效：每次都重新算，慢而且费资源
 
   说白了，避免 KVCache 失效就是"别没事找事"——输入能稳定就稳定，别动不动就变，让 AI 能"接着之前的继续"，而不是"从头再来"。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915851e23647d391e2e37bd.mp3
+podcastTitle: KVCache：AI的“记忆断点”，别让它“重算一遍”
 ---
 
 

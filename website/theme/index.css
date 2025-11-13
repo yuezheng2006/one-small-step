@@ -16,12 +16,12 @@
 .rspress-doc {
   position: relative !important;
   padding-top: 2.5rem !important;
-}
+  }
 
 .dark .rp-reading-time,
 .rspress-theme.dark .rp-reading-time {
   color: var(--rp-c-text-2, #9ca3af) !important;
-}
+  }
 
 /* 暗色主题全局优化 - 更暗的色调 */
 .dark,
@@ -65,7 +65,7 @@
 .rspress-theme .rspress-nav > div,
 .rspress-theme nav > div {
   padding-top: 0 !important;
-}
+  }
 
 /* 减少导航栏容器高度 */
 .rspress-theme [class*="navContainer"],

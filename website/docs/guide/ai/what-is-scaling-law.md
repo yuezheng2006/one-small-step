@@ -76,6 +76,9 @@ plainLanguage: |
   - **小而精**：DeepSeek-R1（671B）吊打很多更大的模型
 
   说白了，Scaling Law 就是"**氪金就能变强**"的科学证明——只要舍得投资，AI 就能越来越聪明。但现在大家也在找"性价比"更高的路线，而不是无脑堆料。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eac23647d391e2ebc3a.mp3
+podcastTitle: 大型语言模型缩放定律：性能、规模与算力的数学法则
 ---
 
 ![scaling-law](/assets/images/scaling-law.png)

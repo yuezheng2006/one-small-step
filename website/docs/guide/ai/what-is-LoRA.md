@@ -26,6 +26,9 @@ plainLanguage: |
   LoRA 适合"教模型新技能"（比如让它说话更礼貌），不适合"教模型新知识"（比如让它知道 2024 年的新闻）。新知识应该用 RAG。
 
   说白了，LoRA 就是"微调大模型的正确姿势"——用最小的代价，获得最大的效果。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bcbcf351e750b7c2a4c.mp3
+podcastTitle: LoRA：微软如何让大模型微调更省力？
 ---
 
 

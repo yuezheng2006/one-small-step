@@ -32,6 +32,9 @@ plainLanguage: |
   - 背景噪声可能混进来，影响语义
 
   说白了，表示空间就是"万物互联的数学空间"——在这里，一切皆可比较，图片和文字终于能"对话"了。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e9fcf351e750b7c3f02.mp3
+podcastTitle: 表示空间：多模态AI理解世界的数学基石
 ---
 
 

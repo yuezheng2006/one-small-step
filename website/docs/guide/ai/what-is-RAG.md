@@ -26,6 +26,9 @@ plainLanguage: |
   - 依赖资料质量：如果资料是错的，答案也可能错
 
   说白了，RAG 就是"让 AI 更靠谱"的方法——不是让它变得更聪明，而是让它"知道自己的局限"，不知道就查，而不是瞎编。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3
+podcastTitle: RAG：给AI配个“手机”，让它回答更靠谱
 ---
 
 

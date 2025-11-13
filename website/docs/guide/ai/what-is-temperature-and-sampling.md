@@ -35,7 +35,9 @@ plainLanguage: |
   - AI 可能回答："《白雪公主与七个小矮人》"（跟科幻八竿子打不着）
   - 基本不可用
 
-  ---
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159efc23647d391e2ebdba.mp3
+podcastTitle: AI生成文本：采样策略如何玩转“掷骰子”，掌控创造与精准
+---
 
   **采样策略（怎么"掷骰子"）：**
 

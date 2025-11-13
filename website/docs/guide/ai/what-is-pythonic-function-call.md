@@ -22,6 +22,9 @@ plainLanguage: |
   - **更高效**：测试数据显示，用 Pythonic 方式的模型得分是 JSON 方式的 2 倍（比如 Claude 3.5 Sonnet：87 vs 45）
 
   说白了，Pythonic 函数调用就是"让 AI 用写代码的方式干活"——比填表格更自然、更强大、更高效。就像从"手工填Excel"升级到"写Python脚本批量处理"。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e56cf351e750b7c3cb0.mp3
+podcastTitle: Pythonic函数调用：LLM告别JSON，复杂任务处理能力升级
 ---
 
 

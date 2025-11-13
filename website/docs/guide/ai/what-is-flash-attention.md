@@ -22,6 +22,9 @@ plainLanguage: |
   - 能处理更长的文本：以前最多 2048 个词，现在能到 8192 甚至更长
 
   说白了，Flash Attention 就是"用聪明的方法偷懒"——不是真的偷懒，而是让 GPU 更高效地工作，就像你整理房间时，不是把所有东西都摊开，而是分类分批处理。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1623647d391e2eaf75.mp3
+podcastTitle: Flash Attention：解决GPU访存痛点，注意力计算提速秘诀
 ---
 
 

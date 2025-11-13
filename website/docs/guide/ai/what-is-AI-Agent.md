@@ -22,6 +22,9 @@ plainLanguage: |
   - **复杂版**：能自动规划任务、调用多个工具、处理多步骤流程
 
   说白了，AI Agent 就是让 AI 从"聊天机器人"变成"能干活的小助手"。它不仅能回答你的问题，还能帮你完成任务。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/6915911b23647d391e2e6f3e.mp3
+podcastTitle: AI Agent：给AI配上“手脚”，变身全能小助理
 ---
 
 

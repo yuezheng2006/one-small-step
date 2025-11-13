@@ -31,6 +31,9 @@ plainLanguage: |
   - 资源受限环境（手机、边缘设备）
 
   说白了，滑动窗口注意力就是"用局部换全局"——只看眼前的，远处的让它飘，省资源还不影响效果。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eef66499a205a12c49e.mp3
+podcastTitle: 告别显存焦虑：滑动窗口注意力如何驾驭长文本
 ---
 
 

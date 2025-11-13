@@ -1,0 +1,446 @@
+{
+  "updated_at": "2025-11-13T19:07:37.f",
+  "total_count": 44,
+  "podcasts": [
+    {
+      "file_name": "what-is-transformer.md",
+      "doc_path": "guide/ai/what-is-transformer.md",
+      "episode_id": "691582b723647d391e2e2713",
+      "title": "Transformer：AI的“阅读理解”神器，原来是这样“猜词”的",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691582b723647d391e2e2711.mp3",
+      "credits": 42,
+      "completed_at": 1763017534.376781,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Transformer：AI的“阅读理解”神器，原来是这样“猜词”的</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691582b723647d391e2e2711.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691582b723647d391e2e2711.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-RAG.md",
+      "doc_path": "guide/ai/what-is-RAG.md",
+      "episode_id": "691583e7cf351e750b7ba7ea",
+      "title": "RAG：给AI配个“手机”，让它回答更靠谱",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3",
+      "credits": 25,
+      "completed_at": 1763017779.281488,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">RAG：给AI配个“手机”，让它回答更靠谱</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691583e7cf351e750b7ba7e8.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "How-to-avoid-KVCache-invalidation.md",
+      "doc_path": "guide/ai/How-to-avoid-KVCache-invalidation.md",
+      "episode_id": "6915851e23647d391e2e37bf",
+      "title": "KVCache：AI的“记忆断点”，别让它“重算一遍”",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915851e23647d391e2e37bd.mp3",
+      "credits": 22,
+      "completed_at": 1763018091.1718102,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">KVCache：AI的“记忆断点”，别让它“重算一遍”</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915851e23647d391e2e37bd.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915851e23647d391e2e37bd.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "LLM-fine-tuning-summary.md",
+      "doc_path": "guide/ai/LLM-fine-tuning-summary.md",
+      "episode_id": "6915858023647d391e2e3923",
+      "title": "大模型微调避坑：80%时间在数据，5%时间在训练",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915858023647d391e2e3921.mp3",
+      "credits": 25,
+      "completed_at": 1763018176.7113442,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大模型微调避坑：80%时间在数据，5%时间在训练</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915858023647d391e2e3921.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915858023647d391e2e3921.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "Parameter-Precision-Formats-for-LLMs.md",
+      "doc_path": "guide/ai/Parameter-Precision-Formats-for-LLMs.md",
+      "episode_id": "691585d523647d391e2e3ad7",
+      "title": "大白话讲大模型精度：选对“分辨率”，AI又省又好",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691585d523647d391e2e3ad5.mp3",
+      "credits": 21,
+      "completed_at": 1763018262.254794,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大白话讲大模型精度：选对“分辨率”，AI又省又好</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691585d523647d391e2e3ad5.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691585d523647d391e2e3ad5.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "What-is-Dual-Chunk-Attention.md",
+      "doc_path": "guide/ai/What-is-Dual-Chunk-Attention.md",
+      "episode_id": "6915862b66499a205a12421a",
+      "title": "DCA：无需训练，大模型上下文直冲100K+",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915862b66499a205a124218.mp3",
+      "credits": 18,
+      "completed_at": 1763018348.3753269,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">DCA：无需训练，大模型上下文直冲100K+</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915862b66499a205a124218.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915862b66499a205a124218.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "What-is-Recall.md",
+      "doc_path": "guide/ai/What-is-Recall.md",
+      "episode_id": "6915868123647d391e2e3ec8",
+      "title": "一文读懂AI召回率：衡量大模型“找全了没有”的关键",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3",
+      "credits": 8,
+      "completed_at": 1763018433.2757702,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">一文读懂AI召回率：衡量大模型“找全了没有”的关键</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915868123647d391e2e3ec6.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "When-to-Use-Fine-Tuning-and-When-Not-To.md",
+      "doc_path": "guide/ai/When-to-Use-Fine-Tuning-and-When-Not-To.md",
+      "episode_id": "691586d6cf351e750b7bb913",
+      "title": "微调教技能，RAG补知识：AI模型别搞反了",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3",
+      "credits": 19,
+      "completed_at": 1763018519.320234,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">微调教技能，RAG补知识：AI模型别搞反了</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/691586d6cf351e750b7bb911.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "how-are-tokens-calculated-in-LLMs.md",
+      "doc_path": "guide/ai/how-are-tokens-calculated-in-LLMs.md",
+      "episode_id": "6915872ccf351e750b7bba0a",
+      "title": "AI按“文字碎片”收费：Token计费，中文成本高在哪？",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3",
+      "credits": 25,
+      "completed_at": 1763018616.209879,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">AI按“文字碎片”收费：Token计费，中文成本高在哪？</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915872ccf351e750b7bba08.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "how-to-optimize-transformer.md",
+      "doc_path": "guide/ai/how-to-optimize-transformer.md",
+      "episode_id": "6915878dcf351e750b7bbc24",
+      "title": "AI改装术：Transformer如何让模型又快又省",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915878dcf351e750b7bbc22.mp3",
+      "credits": 14,
+      "completed_at": 1763019763.6505358,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">AI改装术：Transformer如何让模型又快又省</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915878dcf351e750b7bbc22.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915878dcf351e750b7bbc22.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "how-to-run-gguf-LLM-model.md",
+      "doc_path": "guide/ai/how-to-run-gguf-LLM-model.md",
+      "episode_id": "69158f1123647d391e2e6466",
+      "title": "GGUF模型本地运行：三步搞定，普通电脑也能玩转大模型",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69158f1123647d391e2e6463.mp3",
+      "credits": 25,
+      "completed_at": 1763020561.481,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">GGUF模型本地运行：三步搞定，普通电脑也能玩转大模型</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69158f1123647d391e2e6463.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69158f1123647d391e2e6463.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-AI-Agent.md",
+      "doc_path": "guide/ai/what-is-AI-Agent.md",
+      "episode_id": "6915911b23647d391e2e6f40",
+      "title": "AI Agent：给AI配上“手脚”，变身全能小助理",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/6915911b23647d391e2e6f3e.mp3",
+      "credits": 18,
+      "completed_at": 1763021083.024,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">AI Agent：给AI配上“手脚”，变身全能小助理</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915911b23647d391e2e6f3e.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/6915911b23647d391e2e6f3e.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-AI-Hallucination.md",
+      "doc_path": "guide/ai/what-is-AI-Hallucination.md",
+      "episode_id": "69159b55cf351e750b7c2785",
+      "title": "警惕AI幻觉：生成式AI一本正经“说谎”的深层机制",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b55cf351e750b7c2783.mp3",
+      "credits": 22,
+      "completed_at": 1763023705.079935,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">警惕AI幻觉：生成式AI一本正经“说谎”的深层机制</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b55cf351e750b7c2783.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b55cf351e750b7c2783.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-LLM-distill.md",
+      "doc_path": "guide/ai/what-is-LLM-distill.md",
+      "episode_id": "69159b77cf351e750b7c283f",
+      "title": "LLM蒸馏：大模型瘦身秘籍，小模型也能高效运行",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b77cf351e750b7c283d.mp3",
+      "credits": 18,
+      "completed_at": 1763023739.3417401,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">LLM蒸馏：大模型瘦身秘籍，小模型也能高效运行</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b77cf351e750b7c283d.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159b77cf351e750b7c283d.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-LLM-fine-tuning.md",
+      "doc_path": "guide/ai/what-is-LLM-fine-tuning.md",
+      "episode_id": "69159bc566499a205a12afc2",
+      "title": "大模型微调：如何让AI更懂你的行业痛点",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bc566499a205a12afc0.mp3",
+      "credits": 22,
+      "completed_at": 1763023816.765292,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大模型微调：如何让AI更懂你的行业痛点</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bc566499a205a12afc0.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bc566499a205a12afc0.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-LoRA.md",
+      "doc_path": "guide/ai/what-is-LoRA.md",
+      "episode_id": "69159bcbcf351e750b7c2a4e",
+      "title": "LoRA：微软如何让大模型微调更省力？",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bcbcf351e750b7c2a4c.mp3",
+      "credits": 13,
+      "completed_at": 1763023823.340807,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">LoRA：微软如何让大模型微调更省力？</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bcbcf351e750b7c2a4c.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bcbcf351e750b7c2a4c.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-MoE.md",
+      "doc_path": "guide/ai/what-is-MoE.md",
+      "episode_id": "69159bd366499a205a12b002",
+      "title": "混合专家模型（MoE）：AI大模型高效可扩展的秘密",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bd366499a205a12b000.mp3",
+      "credits": 23,
+      "completed_at": 1763023830.434418,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">混合专家模型（MoE）：AI大模型高效可扩展的秘密</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bd366499a205a12b000.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bd366499a205a12b000.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-chain-of-thought.md",
+      "doc_path": "guide/ai/what-is-chain-of-thought.md",
+      "episode_id": "69159cc023647d391e2ead44",
+      "title": "思维链提示：教AI分步思考，解锁深层推理能力",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc023647d391e2ead42.mp3",
+      "credits": 24,
+      "completed_at": 1763024067.5880802,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">思维链提示：教AI分步思考，解锁深层推理能力</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc023647d391e2ead42.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc023647d391e2ead42.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-context-window.md",
+      "doc_path": "guide/ai/what-is-context-window.md",
+      "episode_id": "69159cc666499a205a12b53a",
+      "title": "大模型上下文窗口：AI“记忆”的长度与力量",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc666499a205a12b538.mp3",
+      "credits": 24,
+      "completed_at": 1763024074.171256,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大模型上下文窗口：AI“记忆”的长度与力量</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc666499a205a12b538.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159cc666499a205a12b538.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-encoder-decoder.md",
+      "doc_path": "guide/ai/what-is-encoder-decoder.md",
+      "episode_id": "69159ccdcf351e750b7c3039",
+      "title": "Transformer核心：Encoder-Decoder模型为何仍是翻译首选？",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ccdcf351e750b7c3037.mp3",
+      "credits": 26,
+      "completed_at": 1763024080.710005,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Transformer核心：Encoder-Decoder模型为何仍是翻译首选？</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ccdcf351e750b7c3037.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ccdcf351e750b7c3037.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-few-shot-zero-shot.md",
+      "doc_path": "guide/ai/what-is-few-shot-zero-shot.md",
+      "episode_id": "69159d1066499a205a12b6ac",
+      "title": "大语言模型凭什么强大？Zero-shot与Few-shot揭秘",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1066499a205a12b6aa.mp3",
+      "credits": 24,
+      "completed_at": 1763024147.61458,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大语言模型凭什么强大？Zero-shot与Few-shot揭秘</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1066499a205a12b6aa.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1066499a205a12b6aa.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-flash-attention.md",
+      "doc_path": "guide/ai/what-is-flash-attention.md",
+      "episode_id": "69159d1623647d391e2eaf77",
+      "title": "Flash Attention：解决GPU访存痛点，注意力计算提速秘诀",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1623647d391e2eaf75.mp3",
+      "credits": 13,
+      "completed_at": 1763024154.198654,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Flash Attention：解决GPU访存痛点，注意力计算提速秘诀</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1623647d391e2eaf75.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1623647d391e2eaf75.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-function-calling.md",
+      "doc_path": "guide/ai/what-is-function-calling.md",
+      "episode_id": "69159d1ccf351e750b7c32da",
+      "title": "函数调用：AI告别纸上谈兵，真正走向现实行动",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1ccf351e750b7c32d8.mp3",
+      "credits": 22,
+      "completed_at": 1763024160.264409,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">函数调用：AI告别纸上谈兵，真正走向现实行动</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1ccf351e750b7c32d8.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d1ccf351e750b7c32d8.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-gguf.md",
+      "doc_path": "guide/ai/what-is-gguf.md",
+      "episode_id": "69159d5f66499a205a12b997",
+      "title": "GGUF：大型语言模型部署的提速降本利器",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d5f66499a205a12b995.mp3",
+      "credits": 22,
+      "completed_at": 1763024227.105234,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">GGUF：大型语言模型部署的提速降本利器</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d5f66499a205a12b995.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d5f66499a205a12b995.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-gropued-query-attention.md",
+      "doc_path": "guide/ai/what-is-gropued-query-attention.md",
+      "episode_id": "69159d6623647d391e2eb2aa",
+      "title": "GQA：大模型注意力机制的效率与性能平衡术",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6623647d391e2eb2a8.mp3",
+      "credits": 29,
+      "completed_at": 1763024233.72679,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">GQA：大模型注意力机制的效率与性能平衡术</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6623647d391e2eb2a8.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6623647d391e2eb2a8.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-llm-perplexity.md",
+      "doc_path": "guide/ai/what-is-llm-perplexity.md",
+      "episode_id": "69159d6c23647d391e2eb2f2",
+      "title": "困惑度：语言模型评估的核心指标",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6c23647d391e2eb2f0.mp3",
+      "credits": 15,
+      "completed_at": 1763024240.2498329,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">困惑度：语言模型评估的核心指标</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6c23647d391e2eb2f0.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159d6c23647d391e2eb2f0.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-modal-encoding.md",
+      "doc_path": "guide/ai/what-is-modal-encoding.md",
+      "episode_id": "69159daf66499a205a12bbd2",
+      "title": "模态编码：让AI看懂听懂世界的幕后英雄",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159daf66499a205a12bbd0.mp3",
+      "credits": 23,
+      "completed_at": 1763024307.1526332,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">模态编码：让AI看懂听懂世界的幕后英雄</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159daf66499a205a12bbd0.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159daf66499a205a12bbd0.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-multi-head-attention.md",
+      "doc_path": "guide/ai/what-is-multi-head-attention.md",
+      "episode_id": "69159db623647d391e2eb490",
+      "title": "多头注意力：Transformer如何从多角度理解信息",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159db623647d391e2eb48e.mp3",
+      "credits": 14,
+      "completed_at": 1763024313.782329,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">多头注意力：Transformer如何从多角度理解信息</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159db623647d391e2eb48e.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159db623647d391e2eb48e.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-multi-model-llm.md",
+      "doc_path": "guide/ai/what-is-multi-model-llm.md",
+      "episode_id": "69159dbccf351e750b7c3750",
+      "title": "揭秘多模态模型：工作原理与技术优势",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dbccf351e750b7c374e.mp3",
+      "credits": 18,
+      "completed_at": 1763024320.363612,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">揭秘多模态模型：工作原理与技术优势</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dbccf351e750b7c374e.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dbccf351e750b7c374e.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-multi-query-attention.md",
+      "doc_path": "guide/ai/what-is-multi-query-attention.md",
+      "episode_id": "69159dffcf351e750b7c39ed",
+      "title": "解密 Multi-Query Attention：Transformer 内存与速度双提升",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dffcf351e750b7c39eb.mp3",
+      "credits": 28,
+      "completed_at": 1763024387.244555,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">解密 Multi-Query Attention：Transformer 内存与速度双提升</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dffcf351e750b7c39eb.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159dffcf351e750b7c39eb.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-onnx.md",
+      "doc_path": "guide/ai/what-is-onnx.md",
+      "episode_id": "69159e0623647d391e2eb838",
+      "title": "ONNX：统一深度学习格式，让模型高效跑起来",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0623647d391e2eb836.mp3",
+      "credits": 20,
+      "completed_at": 1763024393.780979,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">ONNX：统一深度学习格式，让模型高效跑起来</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0623647d391e2eb836.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0623647d391e2eb836.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-position-encoding.md",
+      "doc_path": "guide/ai/what-is-position-encoding.md",
+      "episode_id": "69159e0d23647d391e2eb84c",
+      "title": "Transformer 为什么需要位置编码？解密并行计算的顺序难题",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0d23647d391e2eb84a.mp3",
+      "credits": 15,
+      "completed_at": 1763024400.5075562,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Transformer 为什么需要位置编码？解密并行计算的顺序难题</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0d23647d391e2eb84a.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e0d23647d391e2eb84a.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-pretraining-sft-rlhf.md",
+      "doc_path": "guide/ai/what-is-pretraining-sft-rlhf.md",
+      "episode_id": "69159e5023647d391e2eba20",
+      "title": "LLM炼成记：三阶段如何从知识储备变身实用助手",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5023647d391e2eba1b.mp3",
+      "credits": 23,
+      "completed_at": 1763024467.402812,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">LLM炼成记：三阶段如何从知识储备变身实用助手</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5023647d391e2eba1b.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5023647d391e2eba1b.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-pythonic-function-call.md",
+      "doc_path": "guide/ai/what-is-pythonic-function-call.md",
+      "episode_id": "69159e56cf351e750b7c3cb2",
+      "title": "Pythonic函数调用：LLM告别JSON，复杂任务处理能力升级",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e56cf351e750b7c3cb0.mp3",
+      "credits": 20,
+      "completed_at": 1763024473.942081,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Pythonic函数调用：LLM告别JSON，复杂任务处理能力升级</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e56cf351e750b7c3cb0.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e56cf351e750b7c3cb0.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-quantization-in-LLM.md",
+      "doc_path": "guide/ai/what-is-quantization-in-LLM.md",
+      "episode_id": "69159e5c66499a205a12c15f",
+      "title": "Q4_K_M是什么？深度学习模型量化，省内存降成本",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5c66499a205a12c15d.mp3",
+      "credits": 21,
+      "completed_at": 1763024479.9305038,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Q4_K_M是什么？深度学习模型量化，省内存降成本</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5c66499a205a12c15d.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e5c66499a205a12c15d.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-representation-space.md",
+      "doc_path": "guide/ai/what-is-representation-space.md",
+      "episode_id": "69159e9fcf351e750b7c3f04",
+      "title": "表示空间：多模态AI理解世界的数学基石",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e9fcf351e750b7c3f02.mp3",
+      "credits": 21,
+      "completed_at": 1763024546.722545,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">表示空间：多模态AI理解世界的数学基石</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e9fcf351e750b7c3f02.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159e9fcf351e750b7c3f02.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-safetensors.md",
+      "doc_path": "guide/ai/what-is-safetensors.md",
+      "episode_id": "69159ea566499a205a12c2f3",
+      "title": "Hugging Face safetensors：安全提速，终结Pickle张量风险",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ea566499a205a12c2f1.mp3",
+      "credits": 24,
+      "completed_at": 1763024553.4412858,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Hugging Face safetensors：安全提速，终结Pickle张量风险</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ea566499a205a12c2f1.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ea566499a205a12c2f1.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-scaling-law.md",
+      "doc_path": "guide/ai/what-is-scaling-law.md",
+      "episode_id": "69159eac23647d391e2ebc3c",
+      "title": "大型语言模型缩放定律：性能、规模与算力的数学法则",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eac23647d391e2ebc3a.mp3",
+      "credits": 22,
+      "completed_at": 1763024559.989894,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">大型语言模型缩放定律：性能、规模与算力的数学法则</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eac23647d391e2ebc3a.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eac23647d391e2ebc3a.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-sliding-window-attention.md",
+      "doc_path": "guide/ai/what-is-sliding-window-attention.md",
+      "episode_id": "69159eef66499a205a12c4a0",
+      "title": "告别显存焦虑：滑动窗口注意力如何驾驭长文本",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eef66499a205a12c49e.mp3",
+      "credits": 13,
+      "completed_at": 1763024626.3860412,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">告别显存焦虑：滑动窗口注意力如何驾驭长文本</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eef66499a205a12c49e.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159eef66499a205a12c49e.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-speculative-decoding.md",
+      "doc_path": "guide/ai/what-is-speculative-decoding.md",
+      "episode_id": "69159ef523647d391e2ebd9c",
+      "title": "推测性解码：让大语言模型推理速度飙升2-3倍",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ef523647d391e2ebd9a.mp3",
+      "credits": 20,
+      "completed_at": 1763024633.070768,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">推测性解码：让大语言模型推理速度飙升2-3倍</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ef523647d391e2ebd9a.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ef523647d391e2ebd9a.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-temperature-and-sampling.md",
+      "doc_path": "guide/ai/what-is-temperature-and-sampling.md",
+      "episode_id": "69159efc23647d391e2ebdbc",
+      "title": "AI生成文本：采样策略如何玩转“掷骰子”，掌控创造与精准",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159efc23647d391e2ebdba.mp3",
+      "credits": 30,
+      "completed_at": 1763024639.711894,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">AI生成文本：采样策略如何玩转“掷骰子”，掌控创造与精准</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159efc23647d391e2ebdba.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159efc23647d391e2ebdba.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-vector-database.md",
+      "doc_path": "guide/ai/what-is-vector-database.md",
+      "episode_id": "69159f3f66499a205a12c61c",
+      "title": "揭秘向量数据库：AI如何实现毫秒级“找相似”",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f3f66499a205a12c61a.mp3",
+      "credits": 24,
+      "completed_at": 1763024706.844964,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">揭秘向量数据库：AI如何实现毫秒级“找相似”</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f3f66499a205a12c61a.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f3f66499a205a12c61a.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-vector-embedding.md",
+      "doc_path": "guide/ai/what-is-vector-embedding.md",
+      "episode_id": "69159f4666499a205a12c65d",
+      "title": "向量嵌入：机器理解数据的核心，数据库提速增效",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4666499a205a12c65b.mp3",
+      "credits": 17,
+      "completed_at": 1763024713.414312,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">向量嵌入：机器理解数据的核心，数据库提速增效</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4666499a205a12c65b.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4666499a205a12c65b.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    },
+    {
+      "file_name": "what-is-vibe-coding.md",
+      "doc_path": "guide/ai/what-is-vibe-coding.md",
+      "episode_id": "69159f4c23647d391e2ebfef",
+      "title": "Andrej Karpathy 2025年2月Vibe Coding：AI编程人人可为",
+      "audio_url": "https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4c23647d391e2ebfed.mp3",
+      "credits": 15,
+      "completed_at": 1763024719.4897559,
+      "audio_player_html": "<div class=\"podcast-player\">\n  <div class=\"podcast-player-header\">\n    <h3>🎙️ 音频讲解</h3>\n    <p class=\"podcast-title\">Andrej Karpathy 2025年2月Vibe Coding：AI编程人人可为</p>\n  </div>\n  <audio controls style=\"width: 100%; margin-top: 10px;\">\n    <source src=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4c23647d391e2ebfed.mp3\" type=\"audio/mpeg\">\n    您的浏览器不支持音频播放。\n  </audio>\n  <div class=\"podcast-info\">\n    <a href=\"https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f4c23647d391e2ebfed.mp3\" target=\"_blank\" rel=\"noopener noreferrer\">下载音频</a>\n  </div>\n</div>"
+    }
+  ]
+}

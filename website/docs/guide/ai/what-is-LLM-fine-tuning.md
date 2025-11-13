@@ -27,6 +27,9 @@ plainLanguage: |
   - **需要专业知识**：得知道怎么准备数据、怎么评估效果
 
   说白了，微调就是"让通才变专才"的过程——不是从头培养，而是在已有基础上加强某个方向。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159bc566499a205a12afc0.mp3
+podcastTitle: 大模型微调：如何让AI更懂你的行业痛点
 ---
 
 

@@ -36,7 +36,9 @@ plainLanguage: |
     7. 完成："The weather is nice today"
   ```
 
-  ---
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159ccdcf351e750b7c3037.mp3
+podcastTitle: Transformer核心：Encoder-Decoder模型为何仍是翻译首选？
+---
 
   **核心流程（以翻译为例）：**
 

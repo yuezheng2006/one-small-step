@@ -34,6 +34,9 @@ plainLanguage: |
   - PGVector（PostgreSQL 插件，老司机首选）
 
   说白了，向量数据库就是"以图搜图、以文搜文"背后的技术——让 AI 能"按感觉"找东西，而不是只能"按名字"找。
+
+podcastUrl: https://assets.listenhub.ai/listenhub-public-prod/podcast/69159f3f66499a205a12c61a.mp3
+podcastTitle: 揭秘向量数据库：AI如何实现毫秒级“找相似”
 ---
 
 
